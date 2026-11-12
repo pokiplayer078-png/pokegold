@@ -54,6 +54,15 @@ espécies e a estrutura das equipes foram preservados para manter compatibilidad
 com os dados e scripts existentes. A compilação desta revisão está em fila no
 GitHub Actions; a alteração ainda precisa passar pelo build.
 
+## Terceira mudança jogável: líderes de Kanto
+
+Os oito líderes enfrentados na segunda região foram escalados para o pós-jogo:
+Brock (49–52), Misty (50–54), Lt. Surge (48–54), Erika (49–54), Janine
+(48–53), Sabrina (54–56) e Blaine (52–56). Blue permanece como desafio final
+com níveis 54–58. As espécies e os golpes foram mantidos; apenas os níveis dos
+Pokémon dos líderes foram ajustados. A compilação desta revisão será validada
+pelo GitHub Actions.
+
 ## Estado atual
 
 - [x] Branch de desenvolvimento criada.
