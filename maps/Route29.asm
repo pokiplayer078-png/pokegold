@@ -143,7 +143,34 @@ Route29TeacherScript:
 	jumptextfaceplayer Route29TeacherText
 
 Route29FisherScript:
-	jumptextfaceplayer Route29FisherText
+	faceplayer
+	opentext
+	checkevent EVENT_BANIBUS_EXPEDITION_KIT
+	iftrue .BanibusKitAlreadyReceived
+	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	iffalse .BanibusKitBeforeStarter
+	writetext Route29FisherBanibusKitText
+	promptbutton
+	verbosegiveitem POTION
+	iffalse .BanibusKitExit
+	setevent EVENT_BANIBUS_EXPEDITION_KIT
+	writetext Route29FisherBanibusThanksText
+	waitbutton
+.BanibusKitExit:
+	closetext
+	end
+
+.BanibusKitBeforeStarter:
+	writetext Route29FisherText
+	waitbutton
+	closetext
+	end
+
+.BanibusKitAlreadyReceived:
+	writetext Route29FisherBanibusAfterText
+	waitbutton
+	closetext
+	end
 
 Route29CooltrainerMScript:
 	faceplayer
@@ -312,6 +339,34 @@ Route29TeacherText:
 
 	para "walking through"
 	line "the grass."
+	done
+
+
+Route29FisherBanibusKitText:
+	text "Heading for"
+	line "BANIBUS?"
+
+	para "The desert roads"
+	line "can be rough."
+
+	para "Take this POTION"
+	line "for the trip."
+	done
+
+Route29FisherBanibusThanksText:
+	text "Good luck out"
+	line "there! Keep your"
+	cont "#MON healthy."
+	done
+
+Route29FisherBanibusAfterText:
+	text "How was your"
+	line "preparation for"
+	cont "BANIBUS?"
+
+	para "Stay supplied and"
+	line "watch the desert"
+	cont "trails."
 	done
 
 Route29FisherText:
