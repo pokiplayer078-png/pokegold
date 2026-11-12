@@ -39,12 +39,19 @@ O workflow `.github/workflows/build-expanded.yml` compila
 O build não inclui uma ROM comercial; o resultado é produzido a partir do
 código-fonte deste repositório.
 
+## Primeira mudança jogável
+
+Red agora é um desafio de pós-jogo mais difícil: Pikachu nível 88, Espeon 82,
+Snorlax 84 e os três iniciais totalmente evoluídos no nível 86. Os quatro
+movimentos de cada Pokémon foram mantidos nesta primeira revisão para reduzir
+o risco de incompatibilidade; o ajuste é focado em dificuldade e progressão.
+
 ## Estado atual
 
 - [x] Branch de desenvolvimento criada.
 - [x] Workflow de compilação GBC adicionado.
 - [ ] Primeiro build automatizado validado.
-- [ ] Primeiras mudanças jogáveis implementadas.
+- [x] Primeiro ajuste jogável: equipe de Red fortalecida (níveis 82–88).
 - [ ] Testes de regressão e de save concluídos.
 
 ## Créditos e licenciamento
