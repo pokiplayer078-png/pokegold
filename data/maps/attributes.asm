@@ -694,3 +694,8 @@ ENDM
 	map_attributes Route30BerryHouse, ROUTE_30_BERRY_HOUSE, $00
 	map_attributes MrPokemonsHouse, MR_POKEMONS_HOUSE, $00
 	map_attributes Route31VioletGate, ROUTE_31_VIOLET_GATE, $00
+	map_attributes BanibusOasis, BANIBUS_OASIS, $00
+	map_attributes BanibusMart, BANIBUS_MART, $00
+	map_attributes BanibusPokecenter1F, BANIBUS_POKECENTER_1F, $00
+	map_attributes BanibusPyramid, BANIBUS_PYRAMID, $00
+	map_attributes BanibusDunes, BANIBUS_DUNES, $00
