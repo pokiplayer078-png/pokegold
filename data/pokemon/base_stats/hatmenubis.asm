@@ -1,6 +1,6 @@
 	db HATMENUBIS ; 253
 
-	db  65,  45,  55, 145, 140,  85
+	db  75,  55,  60, 145, 125,  70
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, GROUND ; type
