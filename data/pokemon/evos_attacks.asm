@@ -3347,3 +3347,29 @@ CelebiEvosAttacks:
 	db 40, BATON_PASS
 	db 50, PERISH_SONG
 	db 0 ; no more level-up moves
+
+HatmeEvosAttacks:
+	db EVOLVE_LEVEL, 26, HATMENUBIS
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 5, WATER_GUN
+	db 10, QUICK_ATTACK
+	db 15, MUD_SLAP
+	db 20, BUBBLEBEAM
+	db 25, AGILITY
+	db 31, EARTHQUAKE
+	db 38, HYDRO_PUMP
+	db 0 ; no more level-up moves
+
+HatmenubisEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, WATER_GUN
+	db 1, MUD_SLAP
+	db 1, QUICK_ATTACK
+	db 1, AGILITY
+	db 30, BUBBLEBEAM
+	db 36, SURF
+	db 43, ICE_BEAM
+	db 50, HYDRO_PUMP
+	db 58, EARTHQUAKE
+	db 0 ; no more level-up moves

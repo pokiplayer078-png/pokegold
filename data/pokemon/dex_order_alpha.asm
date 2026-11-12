@@ -81,6 +81,8 @@ AlphabeticalPokedexOrder:
 	db GRIMER
 	db GROWLITHE
 	db GYARADOS
+	db HATME
+	db HATMENUBIS
 	db HAUNTER
 	db HERACROSS
 	db HITMONCHAN

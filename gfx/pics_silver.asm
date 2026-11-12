@@ -692,3 +692,10 @@ UnownIBackpic:       INCBIN "gfx/pokemon/unown_i/back.2bpp.lz"
 UnownIFrontpic:      INCBIN "gfx/pokemon/unown_i/front.2bpp.lz"
 UnownRBackpic:       INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 UnownRFrontpic:      INCBIN "gfx/pokemon/unown_r/front.2bpp.lz"
+
+
+SECTION "Banibus Pokemon Pics", ROMX
+HatmeFrontpic:      INCBIN "gfx/pokemon/hatme/front_silver.2bpp.lz"
+HatmeBackpic:       INCBIN "gfx/pokemon/hatme/back.2bpp.lz"
+HatmenubisFrontpic: INCBIN "gfx/pokemon/hatmenubis/front_silver.2bpp.lz"
+HatmenubisBackpic:  INCBIN "gfx/pokemon/hatmenubis/back.2bpp.lz"

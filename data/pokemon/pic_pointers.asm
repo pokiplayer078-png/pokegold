@@ -254,4 +254,6 @@ PokemonPicPointers::
 	dba_pics LugiaFrontpic, LugiaBackpic
 	dba_pics HoOhFrontpic, HoOhBackpic
 	dba_pics CelebiFrontpic, CelebiBackpic
+	dba_pics HatmeFrontpic, HatmeBackpic
+	dba_pics HatmenubisFrontpic, HatmenubisBackpic
 	assert_table_length NUM_POKEMON
