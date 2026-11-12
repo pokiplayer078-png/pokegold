@@ -2371,4 +2371,60 @@ JohtoGrassWildMons:
 	ENDC
 	end_grass_wildmons
 
+	def_grass_wildmons BANIBUS_DUNES
+	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+	; morn
+	db 3, HATME
+	db 4, HATME
+	db 5, GLIGAR
+	db 3, HATME
+	db 6, GLIGAR
+	db 5, HATME
+	db 5, GLIGAR
+	; day
+	db 3, HATME
+	db 4, HATME
+	db 5, GLIGAR
+	db 3, HATME
+	db 6, GLIGAR
+	db 5, HATME
+	db 5, GLIGAR
+	; nite
+	db 3, HATME
+	db 4, HATME
+	db 5, HATME
+	db 3, GLIGAR
+	db 6, GLIGAR
+	db 5, GLIGAR
+	db 5, HATME
+	end_grass_wildmons
+
+	def_grass_wildmons BANIBUS_PYRAMID
+	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+	; morn
+	db 8, HATME
+	db 9, HATME
+	db 10, GLIGAR
+	db 11, HATME
+	db 12, GLIGAR
+	db 10, HATME
+	db 12, HATME
+	; day
+	db 8, HATME
+	db 9, GLIGAR
+	db 10, HATME
+	db 11, HATME
+	db 12, GLIGAR
+	db 10, HATME
+	db 12, GLIGAR
+	; nite
+	db 8, HATME
+	db 9, HATME
+	db 10, GLIGAR
+	db 11, GLIGAR
+	db 12, HATME
+	db 10, GLIGAR
+	db 12, HATME
+	end_grass_wildmons
+
 	db -1 ; end
