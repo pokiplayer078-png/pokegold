@@ -479,6 +479,11 @@ ENDM
 	map_const ROUTE_30_BERRY_HOUSE,                         4,  4 ;  9
 	map_const MR_POKEMONS_HOUSE,                            4,  4 ; 10
 	map_const ROUTE_31_VIOLET_GATE,                         5,  4 ; 11
+	map_const BANIBUS_OASIS,                               20,  9 ; 12
+	map_const BANIBUS_MART,                                 6,  4 ; 13
+	map_const BANIBUS_POKECENTER_1F,                        5,  4 ; 14
+	map_const BANIBUS_PYRAMID,                             10, 14 ; 15
+	map_const BANIBUS_DUNES,                               10, 27 ; 16
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 26
