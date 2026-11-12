@@ -74,7 +74,7 @@ compilação no GitHub Actions.
 
 ## Nova etapa planejada: abertura expandida e Banibus
 
-A proposta completa está em [BANIBUS.md](BANIBUS.md). Ela define uma mini-região
+A proposta completa está em [BANIBUS.md](BANIBUS.md), com a Pokédex regional detalhada em [BANIBUS_POKEDEX.md](BANIBUS_POKEDEX.md). Ela define uma mini-região
 inspirada no Saara, com oásis, dunas, cânions, pirâmides e quatro ginásios.
 Os encontros selvagens de Banibus serão exclusivos de espécies originais da
 expansão, com Gligar como única exceção preexistente permitida.
