@@ -50,6 +50,10 @@ Os líderes, equipes, níveis, insígnias e TMs serão balanceados para uma regi
 
 ## Pokédex exclusiva de Banibus
 
+A Pokédex regional terá exatamente 16 espécies originais, incluindo os dois estágios de Hatme. A lista, os conceitos e os atributos propostos estão em [BANIBUS_POKEDEX.md](BANIBUS_POKEDEX.md). Hatme será recebido no nível 5 no primeiro ingresso na região e evoluirá para Hatmenubis no nível 26; ambos serão Água/Terrestre. Hatme terá Velocidade 105 e total de atributos 235, enquanto Hatmenubis terá Velocidade 145, Ataque Especial 125 e total 530. Esses valores são propostas de design até serem inseridos e testados no motor.
+
+
+
 A regra de encontros da região será:
 
 - Somente Pokémon originais novos criados para esta expansão.
