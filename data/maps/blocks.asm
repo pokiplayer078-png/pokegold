@@ -995,4 +995,19 @@ DragonsDenB1F_Blocks:
 TohjoFalls_Blocks:
 	INCBIN "maps/TohjoFalls.blk"
 
+BanibusOasis_Blocks:
+	INCBIN "maps/CherrygroveCity.blk"
+
+BanibusMart_Blocks:
+	INCBIN "maps/CherrygroveMart.blk"
+
+BanibusPokecenter1F_Blocks:
+	INCBIN "maps/CherrygrovePokecenter1F.blk"
+
+BanibusPyramid_Blocks:
+	INCBIN "maps/RuinsOfAlphInnerChamber.blk"
+
+BanibusDunes_Blocks:
+	INCBIN "maps/Route30.blk"
+
 ENDSECTION
