@@ -84,6 +84,23 @@ de Elm, as Rotas 29–31 e Cherrygrove. Esta etapa está especificada, mas ainda
 não está implementada na ROM: mapas, ginásios, espécies, gráficos e scripts
 precisam ser adicionados e validados em entregas compiláveis.
 
+
+### Requisitos novos de Banibus
+
+Banibus deverá abrir logo após o jogador receber o inicial de Elm, servindo como
+área opcional de treinamento e obtenção de dinheiro. A primeira área terá
+encontros de baixo nível, com curva gradual, Centro Pokémon, loja e desafios
+repetíveis com recompensas controladas. A região terá Liga e Hall da Fama
+independentes do registro de Johto. Ao vencer a Liga de Banibus pela primeira
+vez, o jogador receberá um Kabutops nível 35 e uma Master Ball, sem duplicação
+em vitórias posteriores e com tratamento para equipe/bolsa cheias.
+
+A expansão de ROM precisa continuar compatível com mGBA. O projeto atual usa
+MBC3+TIMER+RAM+BATTERY; portanto, não existe expansão ilimitada automática.
+Aumentar bancos pode exigir migração de mapper/cabeçalho/layout e testes de
+SRAM, relógio e saves antigos. O Hall da Fama de Banibus terá armazenamento
+separado e não poderá sobrescrever o Hall da Fama original.
+
 ## Estado atual
 
 - [x] Branch de desenvolvimento criada.
