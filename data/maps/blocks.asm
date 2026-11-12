@@ -124,6 +124,7 @@ BetaSproutTower6_Blocks: ; unreferenced
 BetaPokecenter_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaPokecenter.blk"
 
+BanibusDunes_Blocks:
 Route30_Blocks:
 	INCBIN "maps/Route30.blk"
 
@@ -331,6 +332,7 @@ FuchsiaMart_Blocks:
 LavenderMart_Blocks:
 ViridianMart_Blocks:
 SaffronMart_Blocks:
+BanibusMart_Blocks:
 CherrygroveMart_Blocks:
 	INCBIN "maps/Mart.blk"
 
@@ -360,6 +362,7 @@ CeladonPokecenter1F_Blocks:
 CianwoodPokecenter1F_Blocks:
 ViridianPokecenter1F_Blocks:
 SaffronPokecenter1F_Blocks:
+BanibusPokecenter1F_Blocks:
 CherrygrovePokecenter1F_Blocks:
 	INCBIN "maps/Pokecenter1F.blk"
 
@@ -487,6 +490,7 @@ RuinsOfAlphOmanyteChamber_Blocks:
 RuinsOfAlphAerodactylChamber_Blocks:
 	INCBIN "maps/RuinsOfAlphPuzzleChamber.blk"
 
+BanibusPyramid_Blocks:
 RuinsOfAlphInnerChamber_Blocks:
 	INCBIN "maps/RuinsOfAlphInnerChamber.blk"
 
@@ -526,6 +530,7 @@ RadioTower5F_Blocks:
 NewBarkTown_Blocks:
 	INCBIN "maps/NewBarkTown.blk"
 
+BanibusOasis_Blocks:
 CherrygroveCity_Blocks:
 	INCBIN "maps/CherrygroveCity.blk"
 
@@ -995,10 +1000,5 @@ DragonsDenB1F_Blocks:
 TohjoFalls_Blocks:
 	INCBIN "maps/TohjoFalls.blk"
 
-DEF BanibusOasis_Blocks EQU CherrygroveCity_Blocks
-DEF BanibusMart_Blocks EQU CherrygroveMart_Blocks
-DEF BanibusPokecenter1F_Blocks EQU CherrygrovePokecenter1F_Blocks
-DEF BanibusPyramid_Blocks EQU RuinsOfAlphInnerChamber_Blocks
-DEF BanibusDunes_Blocks EQU Route30_Blocks
 
 ENDSECTION
