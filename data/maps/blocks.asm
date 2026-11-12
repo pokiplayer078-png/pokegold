@@ -999,10 +999,10 @@ BanibusOasis_Blocks:
 	INCBIN "maps/CherrygroveCity.blk"
 
 BanibusMart_Blocks:
-	INCBIN "maps/CherrygroveMart.blk"
+	INCBIN "maps/Mart.blk"
 
 BanibusPokecenter1F_Blocks:
-	INCBIN "maps/CherrygrovePokecenter1F.blk"
+	INCBIN "maps/Pokecenter1F.blk"
 
 BanibusPyramid_Blocks:
 	INCBIN "maps/RuinsOfAlphInnerChamber.blk"
