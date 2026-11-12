@@ -494,3 +494,11 @@ INCLUDE "maps/MrPokemonsHouse.asm"
 INCLUDE "maps/Route31VioletGate.asm"
 
 ENDSECTION
+
+SECTION "Banibus Map Scripts", ROMX
+INCLUDE "maps/BanibusOasis.asm"
+INCLUDE "maps/BanibusMart.asm"
+INCLUDE "maps/BanibusPokecenter1F.asm"
+INCLUDE "maps/BanibusPyramid.asm"
+INCLUDE "maps/BanibusDunes.asm"
+ENDSECTION
