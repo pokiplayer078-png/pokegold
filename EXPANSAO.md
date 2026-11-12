@@ -46,6 +46,14 @@ Snorlax 84 e os três iniciais totalmente evoluídos no nível 86. Os quatro
 movimentos de cada Pokémon foram mantidos nesta primeira revisão para reduzir
 o risco de incompatibilidade; o ajuste é focado em dificuldade e progressão.
 
+## Segunda mudança jogável: Liga Pokémon
+
+As equipes de Will, Koga, Bruno e Karen receberam aumentos graduais de nível
+(agora entre 45 e 51). Lance passou a ter níveis entre 52 e 56. Os golpes,
+espécies e a estrutura das equipes foram preservados para manter compatibilidade
+com os dados e scripts existentes. A compilação desta revisão está em fila no
+GitHub Actions; a alteração ainda precisa passar pelo build.
+
 ## Estado atual
 
 - [x] Branch de desenvolvimento criada.
