@@ -156,21 +156,24 @@ Route29FisherScript:
 	setevent EVENT_BANIBUS_EXPEDITION_KIT
 	writetext Route29FisherBanibusThanksText
 	waitbutton
-.BanibusKitExit:
-	closetext
-	end
+	sjump .OfferBanibusTrip
 
 .BanibusKitBeforeStarter:
 	writetext Route29FisherText
 	waitbutton
+.BanibusKitExit:
 	closetext
 	end
 
 .BanibusKitAlreadyReceived:
 	writetext Route29FisherBanibusAfterText
 	waitbutton
+.OfferBanibusTrip:
+	writetext Route29BanibusTravelText
+	yesorno
+	iffalse .BanibusKitExit
 	closetext
-	end
+	warp BANIBUS_OASIS, 25, 10
 
 Route29CooltrainerMScript:
 	faceplayer
@@ -357,6 +360,15 @@ Route29FisherBanibusThanksText:
 	text "Good luck out"
 	line "there! Keep your"
 	cont "#MON healthy."
+	done
+
+Route29BanibusTravelText:
+	text "I can take you to"
+	line "BANIBUS, a faraway"
+	cont "desert region."
+
+	para "Would you like to"
+	line "make the trip now?"
 	done
 
 Route29FisherBanibusAfterText:
