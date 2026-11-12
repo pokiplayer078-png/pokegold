@@ -19,7 +19,6 @@ INCLUDE "data/trainers/pic_pointers.asm"
 
 SECTION "Pics 1", ROMX
 
-NidokingFrontpic:    INCBIN "gfx/pokemon/nidoking/front_gold.2bpp.lz"
 HoOhFrontpic:        INCBIN "gfx/pokemon/ho_oh/front_gold.2bpp.lz"
 GyaradosFrontpic:    INCBIN "gfx/pokemon/gyarados/front_gold.2bpp.lz"
 MeganiumFrontpic:    INCBIN "gfx/pokemon/meganium/front_gold.2bpp.lz"
@@ -696,3 +695,4 @@ HatmeFrontpic:      INCBIN "gfx/pokemon/hatme/front_gold.2bpp.lz"
 HatmeBackpic:       INCBIN "gfx/pokemon/hatme/back.2bpp.lz"
 HatmenubisFrontpic: INCBIN "gfx/pokemon/hatmenubis/front_gold.2bpp.lz"
 HatmenubisBackpic:  INCBIN "gfx/pokemon/hatmenubis/back.2bpp.lz"
+NidokingFrontpic:    INCBIN "gfx/pokemon/nidoking/front_gold.2bpp.lz"
