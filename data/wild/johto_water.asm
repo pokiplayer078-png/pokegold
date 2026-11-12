@@ -282,4 +282,11 @@ JohtoWaterWildMons:
 	db 20, TENTACRUEL
 	end_water_wildmons
 
+	def_water_wildmons BANIBUS_OASIS
+	db 2 percent ; encounter rate
+	db 5, HATME
+	db 6, HATME
+	db 5, HATME
+	end_water_wildmons
+
 	db -1 ; end
