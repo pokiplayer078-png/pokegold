@@ -63,6 +63,14 @@ com níveis 54–58. As espécies e os golpes foram mantidos; apenas os níveis 
 Pokémon dos líderes foram ajustados. A compilação desta revisão será validada
 pelo GitHub Actions.
 
+## Quarta mudança jogável: rival na Rota da Vitória
+
+As três variantes da batalha final do rival antes da Liga (conforme o inicial
+escolhido) foram elevadas para níveis 40–44. As seis posições, espécies e golpes
+foram preservados; somente os níveis mudaram. A intenção é reduzir a diferença
+de dificuldade entre esse confronto e a Elite Four. A revisão está aguardando
+compilação no GitHub Actions.
+
 ## Estado atual
 
 - [x] Branch de desenvolvimento criada.
