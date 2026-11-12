@@ -71,6 +71,19 @@ foram preservados; somente os níveis mudaram. A intenção é reduzir a diferen
 de dificuldade entre esse confronto e a Elite Four. A revisão está aguardando
 compilação no GitHub Actions.
 
+
+## Nova etapa planejada: abertura expandida e Banibus
+
+A proposta completa está em [BANIBUS.md](BANIBUS.md). Ela define uma mini-região
+inspirada no Saara, com oásis, dunas, cânions, pirâmides e quatro ginásios.
+Os encontros selvagens de Banibus serão exclusivos de espécies originais da
+expansão, com Gligar como única exceção preexistente permitida.
+
+O documento também detalha atividades opcionais para New Bark, o laboratório
+de Elm, as Rotas 29–31 e Cherrygrove. Esta etapa está especificada, mas ainda
+não está implementada na ROM: mapas, ginásios, espécies, gráficos e scripts
+precisam ser adicionados e validados em entregas compiláveis.
+
 ## Estado atual
 
 - [x] Branch de desenvolvimento criada.
