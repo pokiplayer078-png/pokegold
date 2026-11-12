@@ -1,6 +1,6 @@
 	db HATME ; 252
 
-	db  32,  20,  25, 110,  20,  25
+	db  35,  25,  25, 105,  20,  25
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, GROUND ; type
