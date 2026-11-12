@@ -1,0 +1,58 @@
+name: Build Pokémon Gold Expanded
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feature/gold-expanded-foundation
+    paths:
+      - "**.asm"
+      - "**.inc"
+      - "**.png"
+      - "**.gbcpal"
+      - "Makefile"
+      - ".github/workflows/build-expanded.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build-gbc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout game
+        uses: actions/checkout@v4
+
+      - name: Checkout RGBDS
+        uses: actions/checkout@v4
+        with:
+          repository: gbdev/rgbds
+          ref: v1.0.4
+          path: rgbds
+
+      - name: Install RGBDS dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y bison libpng-dev pkg-config
+
+      - name: Build RGBDS
+        working-directory: rgbds
+        run: |
+          sudo make -j"$(nproc)" install
+
+      - name: Build Pokémon Gold
+        run: make -j"$(nproc)" gold
+
+      - name: Verify ROM
+        run: |
+          test -s pokegold.gbc
+          file pokegold.gbc
+          sha1sum pokegold.gbc
+
+      - name: Upload GBC ROM
+        uses: actions/upload-artifact@v4
+        with:
+          name: pokemon-gold-expanded-gbc
+          path: pokegold.gbc
+          if-no-files-found: error
+          retention-days: 14
