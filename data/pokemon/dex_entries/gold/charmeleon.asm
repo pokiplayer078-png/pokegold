@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
-	dw 307, 420 ; height, weight
+	db "SPROUT@" ; species name
+	dw 3, 9 ; height, weight
 
-	db   "It is very hot-"
-	next "headed by nature,"
-	next "so it constantly"
+	db   "It stores water in"
+	next "a tiny blue bud."
+	next "It follows springs."
 
-	page "seeks opponents."
-	next "It calms down only"
-	next "when it wins.@"
+	page "The leaves on its"
+	next "head point toward"
+	next "hidden oases.@"
