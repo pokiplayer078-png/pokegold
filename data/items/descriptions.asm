@@ -25,7 +25,7 @@ ItemDescriptions:
 	dw FireStoneDesc
 	dw ThunderStoneDesc
 	dw WaterStoneDesc
-	dw TeruSama2Desc
+	dw SmallMonolithDesc
 	dw HPUpDesc
 	dw ProteinDesc
 	dw IronDesc
