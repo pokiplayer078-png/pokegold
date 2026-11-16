@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
-	dw 607, 1320 ; height, weight
+	db "MIRAGE CAT@" ; species name
+	dw 17, 680 ; height, weight
 
-	db   "This legendary"
-	next "#MON scatters"
-	next "embers with every"
+	db   "It hunts at night"
+	next "under starlit skies."
+	next "Its marks glow blue."
 
-	page "flap of its wings."
-	next "It is a thrilling"
-	next "sight to behold.@"
+	page "It uses illusions"
+	next "to hide its steps"
+	next "from every rival.@"
