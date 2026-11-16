@@ -202,6 +202,8 @@ CherrygroveEvolutionSpeechHouse_Blocks:
 Route30BerryHouse_Blocks:
 BanibusRamsesHouse_Blocks:
 BanibusResidentHouse_Blocks:
+BanibusCampHouse_Blocks:
+BanibusZenithHouse_Blocks:
 	INCBIN "maps/House1.blk"
 
 SafariZoneFuchsiaGateBeta_Blocks:
