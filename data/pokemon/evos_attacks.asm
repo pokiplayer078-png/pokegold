@@ -3301,6 +3301,7 @@ CelebiEvosAttacks:
 
 HatmeEvosAttacks:
 	db EVOLVE_LEVEL, 26, HATMENUBIS
+	db EVOLVE_ITEM, SMALL_MONOLITH, HATMENUBIS
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 5, WATER_GUN
