@@ -207,6 +207,20 @@ Route29FisherScript:
 	writetext Route29BanibusTravelText
 	yesorno
 	iffalse .BanibusKitExit
+	; Give Hatme in a normal dialogue script, not during MAPCALLBACK_NEWMAP.
+	; The normal warp setup fades out to white, loads Banibus, then fades back in.
+	checkevent EVENT_BANIBUS_HATME_RECEIVED
+	iftrue .TravelToBanibus
+	givepoke HATME, 5
+	iffalse .HatmeGiftPending
+	setevent EVENT_BANIBUS_HATME_RECEIVED
+.TravelToBanibus:
+	closetext
+	warp BANIBUS_OASIS, 25, 10
+
+.HatmeGiftPending:
+	writetext Route29FisherHatmeGiftPendingText
+	waitbutton
 	closetext
 	warp BANIBUS_OASIS, 25, 10
 
@@ -436,6 +450,15 @@ Route29BanibusTravelText:
 
 	para "Would you like to"
 	line "make the trip now?"
+	done
+
+Route29FisherHatmeGiftPendingText:
+	text "Your party is full."
+	line "I'll keep HATME"
+	cont "safe for you."
+	para "Make room and"
+	line "speak to me when"
+	cont "you return."
 	done
 
 Route29FisherBanibusAfterText:
