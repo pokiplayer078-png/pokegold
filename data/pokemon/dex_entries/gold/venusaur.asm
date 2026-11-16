@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
-	dw 607, 2210 ; height, weight
+	db "LIZARD@" ; species name
+	dw 4, 18 ; height, weight
 
-	db   "By spreading the"
-	next "broad petals of"
-	next "its flower and"
+	db   "It hides beneath"
+	next "the sand at dawn."
+	next "Only its eyes show."
 
-	page "catching the sun's"
-	next "rays, it fills its"
-	next "body with power.@"
+	page "It can vanish"
+	next "under loose dunes"
+	next "in a single moment.@"
