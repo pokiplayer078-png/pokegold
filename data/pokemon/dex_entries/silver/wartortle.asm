@@ -1,10 +1,10 @@
-	db "TURTLE@" ; species name
-	dw 303, 500 ; height, weight
+	db "CACTUS@" ; species name
+	dw 18, 190 ; height, weight
 
-	db   "It cleverly con-"
-	next "trols its furry"
-	next "ears and tail to"
+	db   "It towers above"
+	next "the desert shrubs."
+	next "Its thick trunk"
 
-	page "maintain its"
-	next "balance while"
-	next "swimming.@"
+	page "stores enough water"
+	next "to survive months"
+	next "without rainfall.@"
