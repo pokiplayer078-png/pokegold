@@ -114,6 +114,7 @@ BanibusZenithCity_MapEvents:
 	def_warp_events
 	warp_event 24, 7, BANIBUS_ZENITH_GYM, 1
 	warp_event 5, 25, BANIBUS_LEAGUE, 1
+	warp_event 31, 21, BANIBUS_ZENITH_HOUSE, 1
 
 	def_coord_events
 
