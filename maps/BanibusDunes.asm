@@ -29,7 +29,7 @@ BanibusDunesSapphireGateScript:
 	yesorno
 	iffalse .Stay
 	closetext
-	warp BANIBUS_SAPPHIRE_CITY, 8, 12
+	warp BANIBUS_SAPPHIRE_CITY, 31, 26
 .Stay:
 	waitbutton
 	closetext
