@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
-	dw 607, 2210 ; height, weight
+	db "LIZARD@" ; species name
+	dw 4, 18 ; height, weight
 
-	db   "It is able to con-"
-	next "vert sunlight into"
-	next "energy. As a"
+	db   "It hides beneath"
+	next "the sand at dawn."
+	next "Only its eyes show."
 
-	page "result, it is more"
-	next "powerful in the"
-	next "summertime.@"
+	page "It can vanish"
+	next "under loose dunes"
+	next "in a single moment.@"
