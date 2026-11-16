@@ -493,6 +493,8 @@ ENDM
 	map_const BANIBUS_ZENITH_GYM, 5,  8 ; 23
 	map_const BANIBUS_CANYON, 10, 27 ; 24
 	map_const BANIBUS_LEAGUE, 5,  8 ; 25
+	map_const BANIBUS_RAMSES_HOUSE, 4, 4 ; 26
+	map_const BANIBUS_RESIDENT_HOUSE, 4, 4 ; 27
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 26
