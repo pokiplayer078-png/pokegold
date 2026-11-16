@@ -479,19 +479,19 @@ ENDM
 	map_const ROUTE_30_BERRY_HOUSE,                         4,  4 ;  9
 	map_const MR_POKEMONS_HOUSE,                            4,  4 ; 10
 	map_const ROUTE_31_VIOLET_GATE,                         5,  4 ; 11
-	map_const BANIBUS_OASIS,                               20, 18 ; 12
+	map_const BANIBUS_OASIS,                               20,  9 ; 12
 	map_const BANIBUS_MART,                                 6,  4 ; 13
 	map_const BANIBUS_POKECENTER_1F,                        5,  4 ; 14
 	map_const BANIBUS_PYRAMID,                             10, 14 ; 15
-	map_const BANIBUS_DUNES,                               10, 18 ; 16
+	map_const BANIBUS_DUNES,                               10, 27 ; 16
 	map_const BANIBUS_OASIS_GYM, 5,  8 ; 17
 	map_const BANIBUS_SAPPHIRE_CITY, 20, 18 ; 18
 	map_const BANIBUS_SAPPHIRE_GYM, 5,  8 ; 19
-	map_const BANIBUS_CANYON_CAMP, 20, 18 ; 20
+	map_const BANIBUS_CANYON_CAMP, 20,  9 ; 20
 	map_const BANIBUS_CANYON_GYM, 5,  8 ; 21
 	map_const BANIBUS_ZENITH_CITY, 20, 18 ; 22
 	map_const BANIBUS_ZENITH_GYM, 5,  8 ; 23
-	map_const BANIBUS_CANYON, 10, 18 ; 24
+	map_const BANIBUS_CANYON, 10, 27 ; 24
 	map_const BANIBUS_LEAGUE, 5,  8 ; 25
 	endgroup
 
