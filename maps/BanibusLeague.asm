@@ -389,7 +389,7 @@ BanibusLeagueChooseKabutopsText:
 BanibusLeagueChooseOctilleryText:
 	text "Choose this prize?"
 	para "OCTILLERY Lv.39"
-	line "and 30 ULTRA BALLS."
+	line "30 ULTRA BALLS."
 	done
 BanibusLeagueChooseOmastarText:
 	text "Choose this prize?"
