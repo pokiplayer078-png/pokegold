@@ -399,7 +399,7 @@ BanibusLeagueChooseOmastarText:
 BanibusLeagueChooseScizorText:
 	text "Choose this prize?"
 	para "SCIZOR Lv.28"
-	line "and a SMALL MONOLITH."
+	line "and a MONOLITH."
 	done
 BanibusLeaguePartyFullText:
 	text "Your party is full."
