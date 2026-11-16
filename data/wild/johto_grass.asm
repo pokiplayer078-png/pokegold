@@ -2374,57 +2374,57 @@ JohtoGrassWildMons:
 	def_grass_wildmons BANIBUS_DUNES
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, HATME
-	db 4, HATME
+	db 3, ESCARABEU
+	db 4, DUNEKO
 	db 5, GLIGAR
-	db 3, HATME
-	db 6, GLIGAR
+	db 3, CACTUSK
+	db 6, MIRAGATO
+	db 5, ESCARABEU
 	db 5, HATME
-	db 5, GLIGAR
 	; day
-	db 3, HATME
-	db 4, HATME
+	db 3, DUNEKO
+	db 4, ESCARABEU
 	db 5, GLIGAR
-	db 3, HATME
-	db 6, GLIGAR
-	db 5, HATME
-	db 5, GLIGAR
+	db 3, CACTUSK
+	db 6, MIRAGATO
+	db 5, DUNEKO
+	db 5, OASLING
 	; nite
-	db 3, HATME
-	db 4, HATME
+	db 3, DUNEKO
+	db 4, MIRAGATO
 	db 5, HATME
 	db 3, GLIGAR
-	db 6, GLIGAR
-	db 5, GLIGAR
-	db 5, HATME
+	db 6, CACTUSK
+	db 5, ESCARABEU
+	db 5, OASLING
 	end_grass_wildmons
 
 	def_grass_wildmons BANIBUS_PYRAMID
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 8, HATME
-	db 9, HATME
+	db 8, OASLING
+	db 9, ROCADILLO
 	db 10, GLIGAR
-	db 11, HATME
-	db 12, GLIGAR
-	db 10, HATME
-	db 12, HATME
+	db 11, AKARIT
+	db 12, CACTUSK
+	db 10, MIRAGATO
+	db 12, DUNEKO
 	; day
-	db 8, HATME
-	db 9, GLIGAR
-	db 10, HATME
-	db 11, HATME
-	db 12, GLIGAR
-	db 10, HATME
-	db 12, GLIGAR
+	db 8, DUNEKO
+	db 9, OASLING
+	db 10, GLIGAR
+	db 11, ROCADILLO
+	db 12, AKARIT
+	db 10, CACTUSK
+	db 12, ESCARABEU
 	; nite
-	db 8, HATME
-	db 9, HATME
-	db 10, GLIGAR
-	db 11, GLIGAR
-	db 12, HATME
-	db 10, GLIGAR
-	db 12, HATME
+	db 8, MIRAGATO
+	db 9, GLIGAR
+	db 10, ROCADILLO
+	db 11, AKARIT
+	db 12, OASLING
+	db 10, DUNEKO
+	db 12, CACTUSK
 	end_grass_wildmons
 
 	db -1 ; end
