@@ -54,6 +54,31 @@ BanibusZenithSuppliesScript:
 	closetext
 	end
 
+BanibusZenithCitySign:
+	jumptext BanibusZenithCitySignText
+BanibusZenithGymSign:
+	jumptext BanibusZenithGymSignText
+BanibusZenithCenterSign:
+	jumptext BanibusZenithCenterSignText
+BanibusZenithMartSign:
+	jumptext BanibusZenithMartSignText
+
+BanibusZenithCitySignText:
+	text "ZENITH CITY"
+	para "The final stop"
+	line "before the League."
+	done
+BanibusZenithGymSignText:
+	text "ZENITH CITY GYM"
+	cont "LEADER: NADIA"
+	done
+BanibusZenithCenterSignText:
+	text "ZENITH #MON CENTER"
+	done
+BanibusZenithMartSignText:
+	text "ZENITH CITY MART"
+	done
+
 BanibusZenithLeagueOpenText:
 	text "The BANIBUS"
 	line "LEAGUE awaits."
