@@ -70,6 +70,10 @@ BanibusCanyonCamp_MapEvents:
 	def_coord_events
 
 	def_bg_events
+	bg_event 19,  9, BGEVENT_READ, BanibusCanyonCampSign
+	bg_event 14, 15, BGEVENT_READ, BanibusCanyonCampGymSign
+	bg_event 22,  5, BGEVENT_READ, BanibusCanyonCampMartSign
+	bg_event 16,  9, BGEVENT_READ, BanibusCanyonCampCenterSign
 
 	def_object_events
 	object_event 32, 6, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BanibusCanyonCampGuideScript, -1
