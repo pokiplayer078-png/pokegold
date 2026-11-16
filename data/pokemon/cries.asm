@@ -6,15 +6,15 @@ ENDM
 PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
 	table_width MON_CRY_LENGTH
-	mon_cry CRY_BULBASAUR,   128,  129 ; BULBASAUR
-	mon_cry CRY_BULBASAUR,    32,  256 ; IVYSAUR
-	mon_cry CRY_BULBASAUR,     0,  320 ; VENUSAUR
-	mon_cry CRY_CHARMANDER,   96,  192 ; CHARMANDER
-	mon_cry CRY_CHARMANDER,   32,  192 ; CHARMELEON
-	mon_cry CRY_CHARMANDER,    0,  256 ; CHARIZARD
-	mon_cry CRY_SQUIRTLE,     96,  192 ; SQUIRTLE
-	mon_cry CRY_SQUIRTLE,     32,  192 ; WARTORTLE
-	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
+	mon_cry CRY_BULBASAUR,   128,  129 ; ESCARABEU
+	mon_cry CRY_BULBASAUR,    32,  256 ; SCARABREX
+	mon_cry CRY_BULBASAUR,     0,  320 ; DUNEKO
+	mon_cry CRY_CHARMANDER,   96,  192 ; DUNEKOBRA
+	mon_cry CRY_CHARMANDER,   32,  192 ; OASLING
+	mon_cry CRY_CHARMANDER,    0,  256 ; OASISPHINX
+	mon_cry CRY_SQUIRTLE,     96,  192 ; CACTUSK
+	mon_cry CRY_SQUIRTLE,     32,  192 ; CACTITAN
+	mon_cry CRY_BLASTOISE,     0,  256 ; ROCADILLO
 	mon_cry CRY_CATERPIE,    128,  160 ; CATERPIE
 	mon_cry CRY_METAPOD,     204,  129 ; METAPOD
 	mon_cry CRY_CATERPIE,    119,  192 ; BUTTERFREE
@@ -149,14 +149,14 @@ PokemonCries::
 	mon_cry CRY_FEAROW,      238,  129 ; KABUTOPS
 	mon_cry CRY_VILEPLUME,    32,  368 ; AERODACTYL
 	mon_cry CRY_GRIMER,       85,  129 ; SNORLAX
-	mon_cry CRY_RAICHU,      128,  192 ; ARTICUNO
-	mon_cry CRY_FEAROW,      255,  256 ; ZAPDOS
-	mon_cry CRY_RAICHU,      248,  192 ; MOLTRES
+	mon_cry CRY_RAICHU,      128,  192 ; ROCADUNE
+	mon_cry CRY_FEAROW,      255,  256 ; MIRAGATO
+	mon_cry CRY_RAICHU,      248,  192 ; MIRAJAGUAR
 	mon_cry CRY_BULBASAUR,    96,  192 ; DRATINI
 	mon_cry CRY_BULBASAUR,    64,  256 ; DRAGONAIR
 	mon_cry CRY_BULBASAUR,    60,  320 ; DRAGONITE
-	mon_cry CRY_PARAS,       153,  383 ; MEWTWO
-	mon_cry CRY_PARAS,       238,  383 ; MEW
+	mon_cry CRY_PARAS,       153,  383 ; AKARIT
+	mon_cry CRY_PARAS,       238,  383 ; AKARUM
 	mon_cry CRY_CHIKORITA,   -16,  176 ; CHIKORITA
 	mon_cry CRY_CHIKORITA,   -34,  288 ; BAYLEEF
 	mon_cry CRY_CHIKORITA,  -183,  512 ; MEGANIUM
