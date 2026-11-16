@@ -5,6 +5,6 @@
 	next "sand like water."
 	next "Its hood warns foes."
 
-	page "It senses footsteps"
-	next "from far below the"
-	next "desert surface.@"
+	page "It senses steps"
+	next "from far below"
+	next "the desert surface.@"
