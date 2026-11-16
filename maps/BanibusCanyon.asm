@@ -15,7 +15,7 @@ BanibusCanyonGuideScript:
 	yesorno
 	iffalse .Stay
 	closetext
-	warp BANIBUS_ZENITH_CITY, 8, 12
+	warp BANIBUS_ZENITH_CITY, 15, 28
 .Stay:
 	waitbutton
 	closetext
