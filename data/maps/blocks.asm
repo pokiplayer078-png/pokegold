@@ -94,7 +94,7 @@ Route25_Blocks:
 Route24_Blocks:
 	INCBIN "maps/Route24.blk"
 
-VioletCity_Blocks: ; unreferenced
+BetaVioletCity_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaVioletCity.blk"
 
 Route3_Blocks:
@@ -112,7 +112,7 @@ BetaSproutTower2_Blocks: ; unreferenced
 Route12_Blocks:
 	INCBIN "maps/Route12.blk"
 
-GoldenrodCity_Blocks: ; unreferenced
+BetaGoldenrodCity_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaGoldenrodCity.blk"
 
 Route20_Blocks:
@@ -282,7 +282,7 @@ Route17Route18Gate_Blocks:
 Route31VioletGate_Blocks:
 	INCBIN "maps/EastWestGate.blk"
 
-AzaleaTown_Blocks: ; unreferenced
+BetaAzaleaTown_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaAzaleaTown.blk"
 
 VermilionCity_Blocks:
