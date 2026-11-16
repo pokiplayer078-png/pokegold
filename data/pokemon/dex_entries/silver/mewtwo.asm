@@ -1,10 +1,10 @@
-	db "LAVA LIZARD@" ; species name
+	db "LAVA NEWT@" ; species name
 	dw 6, 32 ; height, weight
 
 	db   "It lives in warm"
 	next "pyramid chambers."
 	next "Its tail glows red."
 
-	page "It gathers heat"
-	next "from deep stone"
+	page "It stores heat"
+	next "within deep stone"
 	next "before it battles.@"
