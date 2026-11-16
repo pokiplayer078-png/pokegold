@@ -94,7 +94,6 @@ Route25_Blocks:
 Route24_Blocks:
 	INCBIN "maps/Route24.blk"
 
-BetaBanibusSapphireCity_Blocks:
 VioletCity_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaVioletCity.blk"
 
@@ -113,7 +112,6 @@ BetaSproutTower2_Blocks: ; unreferenced
 Route12_Blocks:
 	INCBIN "maps/Route12.blk"
 
-BetaBanibusZenithCity_Blocks:
 GoldenrodCity_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaGoldenrodCity.blk"
 
@@ -284,7 +282,6 @@ Route17Route18Gate_Blocks:
 Route31VioletGate_Blocks:
 	INCBIN "maps/EastWestGate.blk"
 
-BetaBanibusCanyonCamp_Blocks:
 AzaleaTown_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaAzaleaTown.blk"
 
@@ -538,15 +535,18 @@ BanibusOasis_Blocks:
 CherrygroveCity_Blocks:
 	INCBIN "maps/CherrygroveCity.blk"
 
+BanibusSapphireCity_Blocks:
 VioletCity_Blocks:
 	INCBIN "maps/VioletCity.blk"
 
+BanibusCanyonCamp_Blocks:
 AzaleaTown_Blocks:
 	INCBIN "maps/AzaleaTown.blk"
 
 CianwoodCity_Blocks:
 	INCBIN "maps/CianwoodCity.blk"
 
+BanibusZenithCity_Blocks:
 GoldenrodCity_Blocks:
 	INCBIN "maps/GoldenrodCity.blk"
 
