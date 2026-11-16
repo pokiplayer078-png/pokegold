@@ -83,5 +83,5 @@ BanibusSapphireGym_MapEvents:
 	def_bg_events
 
 	def_object_events
-	object_event 5, 1, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, BanibusSapphireGymLeaderScript, -1
+	object_event 5, 1, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, BanibusSapphireGymLeaderScript, -1
 	object_event 7, 13, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, BanibusSapphireGymGuideScript, -1
