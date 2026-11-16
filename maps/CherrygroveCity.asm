@@ -193,9 +193,40 @@ CherrygroveTeacherScript:
 CherrygroveYoungsterScript:
 	faceplayer
 	opentext
+	checkevent EVENT_BANIBUS_HATME_RECEIVED
+	iftrue .BanibusQuest
 	checkflag ENGINE_POKEDEX
 	iftrue .HavePokedex
 	writetext CherrygroveYoungsterText_NoPokedex
+	waitbutton
+	closetext
+	end
+
+.BanibusQuest:
+	checkevent EVENT_BANIBUS_CHERRYGROVE_RESEARCH_DONE
+	iftrue .ResearchDone
+	writetext CherrygroveBanibusQuestText
+	yesorno
+	iffalse .QuestDeclined
+	verbosegiveitem SUPER_POTION
+	iffalse .QuestBagFull
+	setevent EVENT_BANIBUS_CHERRYGROVE_RESEARCH_DONE
+	writetext CherrygroveBanibusQuestCompleteText
+	waitbutton
+	closetext
+	end
+.ResearchDone:
+	writetext CherrygroveBanibusQuestRepeatText
+	waitbutton
+	closetext
+	end
+.QuestDeclined:
+	writetext CherrygroveBanibusQuestDeclinedText
+	waitbutton
+	closetext
+	end
+.QuestBagFull:
+	writetext CherrygroveBanibusQuestBagFullText
 	waitbutton
 	closetext
 	end
@@ -497,6 +528,34 @@ CherrygroveTeacherText_HaveMapCard:
 	text "When you're with"
 	line "#MON, going"
 	cont "anywhere is fun."
+	done
+
+CherrygroveBanibusQuestText:
+	text "You have been to"
+	line "the desert region!"
+	para "Please take this"
+	line "SUPER POTION for"
+	cont "your next trip."
+	done
+
+CherrygroveBanibusQuestCompleteText:
+	text "Stay safe on"
+	line "your journey!"
+	done
+
+CherrygroveBanibusQuestRepeatText:
+	text "Have a safe trip"
+	line "back to BANIBUS!"
+	done
+
+CherrygroveBanibusQuestDeclinedText:
+	text "No problem."
+	done
+
+CherrygroveBanibusQuestBagFullText:
+	text "Your BAG is full."
+	line "Come back when"
+	cont "you have room."
 	done
 
 CherrygroveYoungsterText_NoPokedex:
