@@ -167,8 +167,8 @@ BanibusRamsesNeedPotionsText:
 	line "you have enough."
 	done
 BanibusRamsesPartyFullText:
-	text "RAMSES: Your party"
-	line "is full."
+	text "RAMSES: Party full."
+	line "Make some room."
 	para "Make room and"
 	line "come speak to me"
 	cont "for your EEVEE."
