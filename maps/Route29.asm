@@ -209,10 +209,14 @@ Route29FisherScript:
 	iffalse .BanibusKitExit
 	; Give Hatme in a normal dialogue script, not during MAPCALLBACK_NEWMAP.
 	; The normal warp setup fades out to white, loads Banibus, then fades back in.
-	checkevent EVENT_BANIBUS_HATME_RECEIVED
-	iftrue .TravelToBanibus
+	; Repair old saves where the previous first-visit callback set the flag
+	; before successfully adding HATME to the party.
+	checkpoke HATME
+	iftrue .HatmeAlreadyOwned
+	clearevent EVENT_BANIBUS_HATME_RECEIVED
 	givepoke HATME, 5
 	iffalse .HatmeGiftPending
+.HatmeAlreadyOwned:
 	setevent EVENT_BANIBUS_HATME_RECEIVED
 .TravelToBanibus:
 	closetext
