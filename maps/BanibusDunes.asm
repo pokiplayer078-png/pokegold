@@ -14,7 +14,7 @@ BanibusDunesGuideScript:
 	yesorno
 	iffalse .Stay
 	closetext
-	warp BANIBUS_PYRAMID, 10, 11
+	warp BANIBUS_PYRAMID, 10, 12
 .Stay:
 	waitbutton
 	closetext
