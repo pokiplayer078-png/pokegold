@@ -11,8 +11,11 @@ BanibusRamsesHouseRamsesScript:
 	opentext
 	checkevent EVENT_BANIBUS_RAMSES_EEVEE_RECEIVED
 	iftrue .Quest
+	checkpoke EEVEE
+	iftrue .EeveeAlreadyOwned
 	givepoke EEVEE, 5
 	iffalse .PartyFull
+.EeveeAlreadyOwned:
 	setevent EVENT_BANIBUS_RAMSES_EEVEE_RECEIVED
 	writetext BanibusRamsesEeveeText
 	waitbutton
