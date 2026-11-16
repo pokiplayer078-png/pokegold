@@ -3,7 +3,7 @@
 
 	db   "It guards desert"
 	next "springs with magic"
-	next "Its eyes bend light"
+	next "Its eyes bend rays"
 
 	page "False pools appear"
 	next "when it feels sad"
