@@ -6,5 +6,5 @@
 	next "It seeks springs."
 
 	page "Leaves face oases"
-	next "and guide travelers"
+	next "guiding travelers"
 	next "to hidden water.@"
