@@ -3,8 +3,8 @@
 
 	db   "It runs at dusk"
 	next "across warm dunes."
-	next "Its coat blurs in heat."
+	next "Its coat blurs"
 
-	page "It leaves no tracks"
-	next "when the sun is"
-	next "low in the sky.@"
+	page "in the heat."
+	next "It leaves no tracks"
+	next "when sun falls low.@"
