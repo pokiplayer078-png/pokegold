@@ -1,10 +1,10 @@
-	db "TINYTURTLE@" ; species name
-	dw 108, 200 ; height, weight
+	db "CACTUS@" ; species name
+	dw 5, 28 ; height, weight
 
-	db   "The shell, which"
-	next "hardens soon after"
-	next "it is born, is"
+	db   "It walks slowly"
+	next "through hot sand."
+	next "Its spines hold dew."
 
-	page "resilient. If you"
-	next "poke it, it will"
-	next "bounce back out.@"
+	page "It opens its arms"
+	next "at sunrise to catch"
+	next "the morning mist.@"
