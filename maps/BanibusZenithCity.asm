@@ -87,8 +87,8 @@ BanibusZenithCity_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 17, 7, BANIBUS_ZENITH_GYM, 1
-	warp_event 25, 9, BANIBUS_LEAGUE, 1
+	warp_event 24, 7, BANIBUS_ZENITH_GYM, 1
+	warp_event 5, 25, BANIBUS_LEAGUE, 1
 
 	def_coord_events
 
