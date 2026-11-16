@@ -2427,4 +2427,32 @@ JohtoGrassWildMons:
 	db 12, CACTUSK
 	end_grass_wildmons
 
+		def_grass_wildmons BANIBUS_CANYON
+		db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
+		; morn
+		db 18, GLIGAR
+		db 19, DUNEKOBRA
+		db 20, ROCADILLO
+		db 21, MIRAGATO
+		db 22, CACTITAN
+		db 23, SCARABREX
+		db 24, MIRAJAGUAR
+		; day
+		db 18, DUNEKOBRA
+		db 19, GLIGAR
+		db 20, ROCADILLO
+		db 21, CACTITAN
+		db 22, MIRAGATO
+		db 23, SCARABREX
+		db 24, MIRAJAGUAR
+		; nite
+		db 18, MIRAGATO
+		db 19, GLIGAR
+		db 20, DUNEKOBRA
+		db 21, ROCADILLO
+		db 22, SCARABREX
+		db 23, CACTITAN
+		db 24, MIRAJAGUAR
+		end_grass_wildmons
+
 	db -1 ; end
