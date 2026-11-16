@@ -355,8 +355,9 @@ WaterStoneDesc:
 	db   "Evolves certain"
 	next "kinds of #MON.@"
 
-TeruSama2Desc:
-	db   "?@"
+SmallMonolithDesc:
+	db   "A stone that"
+	next "evolves HATME.@"
 
 HPUpDesc:
 	db   "Raises the HP of"
