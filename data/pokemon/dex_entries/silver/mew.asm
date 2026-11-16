@@ -1,10 +1,10 @@
-	db "NEW SPECIE@" ; species name
-	dw 104, 90 ; height, weight
+	db "LAVA GUARD@" ; species name
+	dw 19, 880 ; height, weight
 
-	db   "Its DNA is said to"
-	next "contain the genet-"
-	next "ic codes of all"
+	db   "It guards the oldest"
+	next "fires under Banibus."
+	next "Its scales stay hot."
 
-	page "#MON, so it can"
-	next "use all kinds of"
-	next "techniques.@"
+	page "Legends say its roar"
+	next "can wake the flame"
+	next "inside ancient rocks.@"
