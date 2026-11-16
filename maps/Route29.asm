@@ -220,13 +220,14 @@ Route29FisherScript:
 	setevent EVENT_BANIBUS_HATME_RECEIVED
 .TravelToBanibus:
 	closetext
-	warp BANIBUS_OASIS, 29, 4
+	warp BANIBUS_OASIS, 25, 10
 
 .HatmeGiftPending:
 	writetext Route29FisherHatmeGiftPendingText
 	waitbutton
 	closetext
-	warp BANIBUS_OASIS, 25, 10
+	closetext
+	end
 
 Route29CooltrainerMScript:
 	faceplayer
@@ -458,11 +459,12 @@ Route29BanibusTravelText:
 
 Route29FisherHatmeGiftPendingText:
 	text "Your party is full."
-	line "I'll keep HATME"
-	cont "safe for you."
-	para "Make room and"
-	line "speak to me when"
-	cont "you return."
+	para "Make room for one"
+	line "#MON, then talk"
+	cont "to me again."
+	para "The trip will wait"
+	line "until HATME can"
+	cont "join your team."
 	done
 
 Route29FisherBanibusAfterText:
