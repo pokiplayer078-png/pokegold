@@ -65,7 +65,7 @@ BanibusCanyonCamp_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 17, 7, BANIBUS_CANYON_GYM, 1
+	warp_event 10, 15, BANIBUS_CANYON_GYM, 1
 
 	def_coord_events
 
