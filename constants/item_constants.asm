@@ -31,6 +31,7 @@
 	const THUNDERSTONE ; 17
 	const WATER_STONE  ; 18
 	const ITEM_19      ; 19
+DEF SMALL_MONOLITH EQU ITEM_19
 	const HP_UP        ; 1a
 	const PROTEIN      ; 1b
 	const IRON         ; 1c
