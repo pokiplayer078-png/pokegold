@@ -3,7 +3,7 @@
 
 	db   "It lives in warm"
 	next "pyramid chambers."
-	next "Its tail glows red."
+	next "Tail glows red."
 
 	page "It stores heat"
 	next "within deep stone"
