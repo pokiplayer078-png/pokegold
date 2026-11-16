@@ -1,10 +1,10 @@
-	db "FREEZE@" ; species name
-	dw 507, 1220 ; height, weight
+	db "ROCK@" ; species name
+	dw 14, 280 ; height, weight
 
-	db   "The magnificent,"
-	next "seemingly translu-"
-	next "cent wings of this"
+	db   "It shapes the rocks"
+	next "around its burrow."
+	next "Its claws split stone."
 
-	page "legendary bird"
-	next "#MON are said"
-	next "to be made of ice.@"
+	page "A single charge can"
+	next "start a small slide"
+	next "along a canyon wall.@"
