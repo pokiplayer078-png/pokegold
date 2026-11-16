@@ -5,6 +5,6 @@
 	next "the dunes at dawn."
 	next "Its shell is warm."
 
-	page "Sun warms its shell"
+	page "Sun warms shell"
 	next "keeps it warm at"
 	next "night in sand.@"
