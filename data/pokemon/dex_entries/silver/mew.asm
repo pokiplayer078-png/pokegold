@@ -3,8 +3,8 @@
 
 	db   "Guards old flames"
 	next "beneath Banibus."
-	next "Its scales stay hot."
+	next "Scales stay hot"
 
 	page "Legends tell of"
 	next "a roar that wakes"
-	next "fire in old stone.@"
+	next "fire in rock.@"
