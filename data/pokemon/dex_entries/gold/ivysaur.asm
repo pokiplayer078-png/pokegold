@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
-	dw 303, 290 ; height, weight
+	db "ARMOR@" ; species name
+	dw 8, 92 ; height, weight
 
-	db   "Exposure to sun-"
-	next "light adds to its"
-	next "strength. Sunlight"
+	db   "Its hard shell can"
+	next "deflect sharp rocks."
+	next "It guards its nest."
 
-	page "also makes the bud"
-	next "on its back grow"
-	next "larger.@"
+	page "A powerful horn"
+	next "breaks packed earth"
+	next "with one strong hit.@"
