@@ -91,6 +91,7 @@ BanibusCanyonCamp_MapEvents:
 
 	def_warp_events
 	warp_event 10, 15, BANIBUS_CANYON_GYM, 1
+	warp_event 9, 5, BANIBUS_CAMP_HOUSE, 1
 
 	def_coord_events
 
