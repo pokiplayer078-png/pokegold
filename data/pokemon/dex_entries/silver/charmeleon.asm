@@ -3,7 +3,7 @@
 
 	db   "It stores water in"
 	next "a tiny blue bud."
-	next "It follows springs."
+	next "It seeks springs."
 
 	page "Leaves face oases"
 	next "and guide travelers"
