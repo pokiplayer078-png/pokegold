@@ -3,7 +3,7 @@
 
 	db   "It hunts at night"
 	next "under night skies."
-	next "Its marks glow blue"
+	next "Blue marks shine"
 
 	page "It casts illusions"
 	next "to hide its steps"
