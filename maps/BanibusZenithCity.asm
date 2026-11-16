@@ -48,7 +48,7 @@ BanibusZenithSuppliesScript:
 	yesorno
 	iffalse .Stay
 	closetext
-	warp BANIBUS_CANYON_CAMP, 8, 12
+	warp BANIBUS_CANYON_CAMP, 15, 10
 .Stay:
 	waitbutton
 	closetext
