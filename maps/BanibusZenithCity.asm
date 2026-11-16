@@ -93,6 +93,10 @@ BanibusZenithCity_MapEvents:
 	def_coord_events
 
 	def_bg_events
+	bg_event 22, 18, BGEVENT_READ, BanibusZenithCitySign
+	bg_event 26,  9, BGEVENT_READ, BanibusZenithGymSign
+	bg_event 16, 27, BGEVENT_READ, BanibusZenithCenterSign
+	bg_event 26, 27, BGEVENT_READ, BanibusZenithMartSign
 
 	def_object_events
 	object_event 32, 6, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, BanibusZenithLeagueGuideScript, -1
