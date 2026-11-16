@@ -128,8 +128,8 @@ BanibusRamsesEeveeText:
 	done
 
 BanibusRamsesRequestText:
-	text "RAMSES: I am"
-	line "studying evolution."
+	text "RAMSES: I study"
+	line "how #MON evolve."
 	para "Bring me 5 POTIONS"
 	line "and I will trade"
 	cont "you an evolution"
