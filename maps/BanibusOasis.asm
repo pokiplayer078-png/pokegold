@@ -66,6 +66,11 @@ BanibusOasis_MapEvents:
 	def_coord_events
 
 	def_bg_events
+	bg_event 30,  8, BGEVENT_READ, BanibusOasisSign
+	bg_event 24,  3, BGEVENT_READ, BanibusOasisMartSign
+	bg_event 30,  3, BGEVENT_READ, BanibusOasisPokecenterSign
+	bg_event 16,  7, BGEVENT_READ, BanibusOasisGymSign
+	bg_event 24,  9, BGEVENT_READ, BanibusRamsesHouseSign
 
 	def_object_events
 	object_event 32,  6, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BanibusOasisGuideScript, -1
