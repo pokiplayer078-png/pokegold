@@ -7,4 +7,4 @@
 
 	page "Shell warmed by sun"
 	next "keeps it warm at"
-	next "night in the desert.@"
+	next "night in sand.@"
