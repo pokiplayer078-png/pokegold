@@ -94,7 +94,8 @@ Route25_Blocks:
 Route24_Blocks:
 	INCBIN "maps/Route24.blk"
 
-BetaVioletCity_Blocks: ; unreferenced
+BetaBanibusSapphireCity_Blocks:
+VioletCity_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaVioletCity.blk"
 
 Route3_Blocks:
@@ -112,7 +113,8 @@ BetaSproutTower2_Blocks: ; unreferenced
 Route12_Blocks:
 	INCBIN "maps/Route12.blk"
 
-BetaGoldenrodCity_Blocks: ; unreferenced
+BetaBanibusZenithCity_Blocks:
+GoldenrodCity_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaGoldenrodCity.blk"
 
 Route20_Blocks:
@@ -125,6 +127,7 @@ BetaPokecenter_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaPokecenter.blk"
 
 BanibusDunes_Blocks:
+BanibusCanyon_Blocks:
 Route30_Blocks:
 	INCBIN "maps/Route30.blk"
 
@@ -281,7 +284,8 @@ Route17Route18Gate_Blocks:
 Route31VioletGate_Blocks:
 	INCBIN "maps/EastWestGate.blk"
 
-BetaAzaleaTown_Blocks: ; unreferenced
+BetaBanibusCanyonCamp_Blocks:
+AzaleaTown_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaAzaleaTown.blk"
 
 VermilionCity_Blocks:
@@ -736,6 +740,11 @@ KarensRoom_Blocks:
 AzaleaGym_Blocks:
 	INCBIN "maps/AzaleaGym.blk"
 
+BanibusOasisGym_Blocks:
+BanibusSapphireGym_Blocks:
+BanibusCanyonGym_Blocks:
+BanibusZenithGym_Blocks:
+BanibusLeague_Blocks:
 VioletGym_Blocks:
 	INCBIN "maps/VioletGym.blk"
 
