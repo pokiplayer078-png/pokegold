@@ -31,7 +31,6 @@ def write_png(path, pixels, palette, size=56):
     w = h = size
     rgb = lambda value: tuple(int(value[i:i+2], 16) for i in (1, 3, 5))
     plte = bytes((255, 255, 255) + (0, 0, 0) + rgb(palette[0]) + rgb(palette[1]))
-    trns = bytes((0, 255, 255, 255))
     rows = bytearray()
     for y in range(h):
         rows.append(0)
@@ -41,7 +40,6 @@ def write_png(path, pixels, palette, size=56):
     data = bytes([137, 80, 78, 71, 13, 10, 26, 10])
     data += png_chunk(b"IHDR", struct.pack(">IIBBBBB", w, h, 2, 3, 0, 0, 0))
     data += png_chunk(b"PLTE", plte)
-    data += png_chunk(b"tRNS", trns)
     data += png_chunk(b"IDAT", zlib.compress(bytes(rows), 9))
     data += png_chunk(b"IEND", b"")
     path.parent.mkdir(parents=True, exist_ok=True)
