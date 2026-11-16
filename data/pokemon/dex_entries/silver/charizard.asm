@@ -1,10 +1,10 @@
 	db "MIRAGE@" ; species name
 	dw 15, 320 ; height, weight
 
-	db   "It protects desert"
-	next "springs with tricks."
+	db   "It guards desert"
+	next "springs with magic."
 	next "Its eyes bend light."
 
-	page "Travelers follow"
-	next "false water trails"
-	next "when it feels sad.@"
+	page "False pools appear"
+	next "when it feels sad"
+	next "or needs to hide.@"
