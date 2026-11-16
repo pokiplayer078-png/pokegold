@@ -357,7 +357,7 @@ WaterStoneDesc:
 
 SmallMonolithDesc:
 	db   "A small monolith"
-	next "to evolve HATME.@"
+	next "evolves ROCADILLO.@"
 
 HPUpDesc:
 	db   "Raises the HP of"
