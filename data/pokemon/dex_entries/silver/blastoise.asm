@@ -1,10 +1,10 @@
-	db "SHELLFISH@" ; species name
-	dw 503, 1890 ; height, weight
+	db "ARMOR@" ; species name
+	dw 7, 85 ; height, weight
 
-	db   "The rocket cannons"
-	next "on its shell fire"
-	next "jets of water"
+	db   "It digs tunnels"
+	next "beneath stone fields."
+	next "Its plates are hard."
 
-	page "capable of punch-"
-	next "ing holes through"
-	next "thick steel.@"
+	page "It curls into a ball"
+	next "to roll through"
+	next "narrow passages.@"
