@@ -99,8 +99,8 @@ BanibusSapphireCity_MapEvents:
 
 	def_warp_events
 	warp_event 18, 17, BANIBUS_SAPPHIRE_GYM, 1
-	warp_event 9, 17, BANIBUS_MART, 2
-	warp_event 31, 25, BANIBUS_POKECENTER_1F, 1
+	warp_event 9, 17, BANIBUS_MART, 1
+	warp_event 31, 25, BANIBUS_POKECENTER_1F, 2
 	warp_event 21, 29, BANIBUS_RESIDENT_HOUSE, 1
 
 	def_coord_events
