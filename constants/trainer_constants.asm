@@ -86,6 +86,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass CHAMPION ; 10
 	const LANCE
+	const BANIBUS_CHAMPION
 
 	trainerclass BROCK ; 11
 	const BROCK1
@@ -160,6 +161,8 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const JOSE3
 	const VANCE2
 	const VANCE3
+	const BANIBUS_GYM3
+	const BANIBUS_E4_WIND
 
 	trainerclass LASS ; 19
 	const CARRIE
@@ -256,6 +259,8 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const ISSAC
 	const DONALD
 	const ZACH
+	const BANIBUS_GYM2
+	const BANIBUS_E4_ROCK
 
 	trainerclass GRUNTM ; 1f
 	const GRUNTM_1
@@ -454,6 +459,8 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const DANIEL
 	const PARRY2
 	const PARRY3
+	const BANIBUS_GYM1
+	const BANIBUS_E4_GROUND
 
 	trainerclass BIKER ; 2d
 	const KAZU1 ; unused
@@ -521,6 +528,8 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const GILBERT
 	const JARED
 	const RODNEY
+	const BANIBUS_GYM4
+	const BANIBUS_E4_MIND
 
 	trainerclass PICNICKER ; 35
 	const LIZ1
