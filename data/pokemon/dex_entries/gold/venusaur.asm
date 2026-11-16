@@ -7,4 +7,4 @@
 
 	page "It can vanish"
 	next "under loose dunes"
-	next "in a single moment.@"
+	next "in an instant.@"
