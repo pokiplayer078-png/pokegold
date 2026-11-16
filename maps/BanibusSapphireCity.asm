@@ -35,7 +35,7 @@ BanibusSapphireSuppliesScript:
 	yesorno
 	iffalse .Stay
 	closetext
-	warp BANIBUS_OASIS, 25, 10
+	warp BANIBUS_OASIS, 29, 4
 .Stay:
 	waitbutton
 	closetext
