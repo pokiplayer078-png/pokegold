@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
-	dw 303, 290 ; height, weight
+	db "ARMOR@" ; species name
+	dw 8, 92 ; height, weight
 
-	db   "If the bud on its"
-	next "back starts to"
-	next "smell sweet, it"
+	db   "Its hard shell can"
+	next "deflect sharp rocks."
+	next "It guards its nest."
 
-	page "is evidence that"
-	next "the large flower"
-	next "will soon bloom.@"
+	page "A powerful horn"
+	next "breaks packed earth"
+	next "with one strong hit.@"
