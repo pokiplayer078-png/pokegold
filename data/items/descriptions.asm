@@ -356,8 +356,8 @@ WaterStoneDesc:
 	next "kinds of #MON.@"
 
 SmallMonolithDesc:
-	db   "A stone that"
-	next "evolves HATME.@"
+	db   "A small monolith"
+	next "to evolve HATME.@"
 
 HPUpDesc:
 	db   "Raises the HP of"
