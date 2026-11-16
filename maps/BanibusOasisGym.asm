@@ -76,7 +76,7 @@ BanibusOasisGym_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 4, 15, BANIBUS_OASIS, 4
+	warp_event 4, 15, BANIBUS_OASIS, 3
 	warp_event 5, 15, BANIBUS_OASIS, 4
 
 	def_coord_events
