@@ -6,16 +6,6 @@ BanibusOasis_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
-	callback MAPCALLBACK_NEWMAP, BanibusOasisFirstVisitCallback
-
-BanibusOasisFirstVisitCallback:
-	checkevent EVENT_BANIBUS_HATME_RECEIVED
-	iftrue .Done
-	givepoke HATME, 5
-	iffalse .Done
-	setevent EVENT_BANIBUS_HATME_RECEIVED
-.Done:
-	endcallback
 
 BanibusOasisGuideScript:
 	faceplayer
