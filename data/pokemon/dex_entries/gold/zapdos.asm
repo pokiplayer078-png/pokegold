@@ -6,5 +6,5 @@
 	next "Its coat blurs"
 
 	page "in the heat."
-	next "It leaves no tracks"
-	next "when sun falls low.@"
+	next "Leaves no tracks"
+	next "when sun dips low.@"
