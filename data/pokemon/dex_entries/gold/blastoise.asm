@@ -2,7 +2,7 @@
 	dw 7, 85 ; height, weight
 
 	db   "It digs tunnels"
-	next "beneath stone fields."
+	next "under stony fields."
 	next "Its plates are hard."
 
 	page "It curls into a ball"
