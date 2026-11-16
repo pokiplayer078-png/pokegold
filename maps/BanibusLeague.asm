@@ -191,6 +191,9 @@ BanibusLeagueChampionScript:
 .ChooseKabutops:
 	setevent EVENT_BANIBUS_REWARD_CHOICE_KABUTOPS
 	sjump .KabutopsReward
+.MigrateOldReward:
+	setevent EVENT_BANIBUS_REWARD_CHOICE_KABUTOPS
+	sjump .KabutopsReward
 .KabutopsReward:
 	checkevent EVENT_BANIBUS_REWARD_KABUTOPS
 	iftrue .KabutopsBall
