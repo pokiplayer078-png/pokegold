@@ -1,10 +1,10 @@
-	db "NEW SPECIE@" ; species name
-	dw 104, 90 ; height, weight
+	db "LAVA GUARD@" ; species name
+	dw 19, 880 ; height, weight
 
-	db   "Apparently, it"
-	next "appears only to"
-	next "those people who"
+	db   "It guards the oldest"
+	next "fires under Banibus."
+	next "Its scales stay hot."
 
-	page "are pure of heart"
-	next "and have a strong"
-	next "desire to see it.@"
+	page "Legends say its roar"
+	next "can wake the flame"
+	next "inside ancient rocks.@"
