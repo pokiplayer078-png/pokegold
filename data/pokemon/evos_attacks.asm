@@ -109,7 +109,8 @@ WartortleEvosAttacks:
 	db 0
 
 BlastoiseEvosAttacks:
-	db EVOLVE_LEVEL, 24, ROCADUNE
+	; ROCADILLO evolves with the BANIBUS SMALL MONOLITH.
+	db EVOLVE_ITEM, SMALL_MONOLITH, ROCADUNE
 	db 0
 	db 1, TACKLE
 	db 5, DEFENSE_CURL
