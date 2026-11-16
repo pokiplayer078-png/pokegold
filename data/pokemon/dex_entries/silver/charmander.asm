@@ -2,9 +2,9 @@
 	dw 12, 65 ; height, weight
 
 	db   "It swims through"
-	next "sand like water."
-	next "Its hood warns foes."
+	next "sand like water"
+	next "Its hood warns foes"
 
 	page "It senses steps"
 	next "from far below"
-	next "the desert surface.@"
+	next "deep beneath sand.@"
