@@ -3,8 +3,8 @@
 
 	db   "It walks slowly"
 	next "through hot sand."
-	next "Its spines hold dew."
+	next "Spines hold dew."
 
-	page "It opens its arms"
-	next "at sunrise to catch"
-	next "the morning mist.@"
+	page "At dawn it catches"
+	next "the morning mist"
+	next "on its green arms.@"
