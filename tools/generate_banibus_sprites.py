@@ -49,7 +49,7 @@ def write_footprint_png(path, pixels):
         rows.append(0)
         for x in range(w):
             rows.append(0 if pixels[y][x] else 255)
-    data = b"\\x89PNG\\r\\n\\x1a\\n"
+    data = bytes([137, 80, 78, 71, 13, 10, 26, 10])
     data += png_chunk(b"IHDR", struct.pack(">IIBBBBB", w, h, 8, 0, 0, 0, 0))
     data += png_chunk(b"IDAT", zlib.compress(bytes(rows), 9))
     data += png_chunk(b"IEND", b"")
