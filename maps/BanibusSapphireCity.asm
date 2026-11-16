@@ -44,6 +44,26 @@ BanibusSapphireSuppliesScript:
 BanibusSapphireSign:
 	jumptext BanibusSapphireSignText
 
+BanibusSapphireGymSign:
+	jumptext BanibusSapphireGymSignText
+BanibusSapphireMartSign:
+	jumptext BanibusSapphireMartSignText
+BanibusSapphirePokecenterSign:
+	jumptext BanibusSapphirePokecenterSignText
+
+BanibusSapphireGymSignText:
+	text "SAPPHIRE CITY GYM"
+	cont "LEADER: NABIL"
+	para "ROCK-type #MON"
+	done
+BanibusSapphireMartSignText:
+	text "SAPPHIRE CITY MART"
+	done
+BanibusSapphirePokecenterSignText:
+	text "SAPPHIRE CITY"
+	line "#MON CENTER"
+	done
+
 BanibusSapphireGuideOpenText:
 	text "CANYON CAMP is"
 	line "beyond the next"
