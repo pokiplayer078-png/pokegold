@@ -33,6 +33,39 @@ BanibusOasisBoatmanScript:
 	closetext
 	end
 
+
+BanibusOasisSign:
+	jumptext BanibusOasisSignText
+BanibusOasisMartSign:
+	jumptext BanibusOasisMartSignText
+BanibusOasisPokecenterSign:
+	jumptext BanibusOasisPokecenterSignText
+BanibusOasisGymSign:
+	jumptext BanibusOasisGymSignText
+BanibusRamsesHouseSign:
+	jumptext BanibusRamsesHouseSignText
+
+BanibusOasisSignText:
+	text "OASIS OF MIRAGE"
+	para "A cool refuge in"
+	line "the BANIBUS desert."
+	done
+BanibusOasisMartSignText:
+	text "OASIS MART"
+	done
+BanibusOasisPokecenterSignText:
+	text "OASIS #MON CENTER"
+	done
+BanibusOasisGymSignText:
+	text "OASIS #MON GYM"
+	cont "LEADER: SAHRA"
+	done
+BanibusRamsesHouseSignText:
+	text "RAMSES' HOUSE"
+	para "Research into"
+	line "#MON evolution."
+	done
+
 BanibusOasisGuideText:
 	text "Welcome to the"
 	line "OASIS OF MIRAGE!"
