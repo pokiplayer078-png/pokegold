@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
-	dw 507, 2000 ; height, weight
+	db "MIRAGE@" ; species name
+	dw 15, 320 ; height, weight
 
-	db   "If CHARIZARD be-"
-	next "comes furious, the"
-	next "flame at the tip"
+	db   "It protects desert"
+	next "springs with tricks."
+	next "Its eyes bend light."
 
-	page "of its tail flares"
-	next "up in a whitish-"
-	next "blue color.@"
+	page "Travelers follow"
+	next "false water trails"
+	next "when it feels sad.@"
