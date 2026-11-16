@@ -1,10 +1,10 @@
-	db "ELECTRIC@" ; species name
-	dw 503, 1160 ; height, weight
+	db "MIRAGE CAT@" ; species name
+	dw 7, 45 ; height, weight
 
-	db   "This legendary"
-	next "bird #MON"
-	next "causes savage"
+	db   "It runs at dusk"
+	next "across warm dunes."
+	next "Its coat blurs in heat."
 
-	page "thunderstorms by"
-	next "flapping its glit-"
-	next "tering wings.@"
+	page "It leaves no tracks"
+	next "when the sun is"
+	next "low in the sky.@"
