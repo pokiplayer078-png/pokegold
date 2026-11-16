@@ -40,6 +40,31 @@ BanibusCanyonCampSuppliesScript:
 	closetext
 	end
 
+BanibusCanyonCampSign:
+	jumptext BanibusCanyonCampSignText
+BanibusCanyonCampGymSign:
+	jumptext BanibusCanyonCampGymSignText
+BanibusCanyonCampMartSign:
+	jumptext BanibusCanyonCampMartSignText
+BanibusCanyonCampCenterSign:
+	jumptext BanibusCanyonCampCenterSignText
+
+BanibusCanyonCampSignText:
+	text "CANYON CAMP"
+	para "A rest stop at"
+	line "the canyon trail."
+	done
+BanibusCanyonCampGymSignText:
+	text "CANYON CAMP GYM"
+	cont "LEADER: ZAYD"
+	done
+BanibusCanyonCampMartSignText:
+	text "CAMP MART"
+	done
+BanibusCanyonCampCenterSignText:
+	text "CAMP #MON CENTER"
+	done
+
 BanibusCanyonCampGuideOpenText:
 	text "The canyon trail"
 	line "leads to ZENITH."
