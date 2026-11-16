@@ -137,7 +137,42 @@ CatchingTutorialDudeScript:
 	end
 
 Route29YoungsterScript:
-	jumptextfaceplayer Route29YoungsterText
+	faceplayer
+	opentext
+	checkevent EVENT_BANIBUS_HATME_RECEIVED
+	iffalse .RegularText
+	checkevent EVENT_BANIBUS_ROUTE29_RESEARCH_DONE
+	iftrue .Completed
+	writetext Route29YoungsterBanibusQuestText
+	yesorno
+	iffalse .Declined
+	verbosegiveitem GREAT_BALL
+	iffalse .BagFull
+	setevent EVENT_BANIBUS_ROUTE29_RESEARCH_DONE
+	writetext Route29YoungsterBanibusQuestCompleteText
+	waitbutton
+	closetext
+	end
+.Completed:
+	writetext Route29YoungsterBanibusQuestRepeatText
+	waitbutton
+	closetext
+	end
+.RegularText:
+	writetext Route29YoungsterText
+	waitbutton
+	closetext
+	end
+.Declined:
+	writetext Route29YoungsterQuestDeclinedText
+	waitbutton
+	closetext
+	end
+.BagFull:
+	writetext Route29YoungsterQuestBagFullText
+	waitbutton
+	closetext
+	end
 
 Route29TeacherScript:
 	jumptextfaceplayer Route29TeacherText
@@ -319,6 +354,38 @@ CatchingTutorialRepeatText:
 	text "Huh? You want me"
 	line "to show you how to"
 	cont "catch #MON?"
+	done
+
+Route29YoungsterBanibusQuestText:
+	text "You visited"
+	line "BANIBUS, right?"
+	para "I am studying the"
+	line "desert species."
+	para "Take this BALL"
+	line "for your next"
+	cont "expedition?"
+	done
+
+Route29YoungsterBanibusQuestCompleteText:
+	text "Good luck with"
+	line "your research!"
+	done
+
+Route29YoungsterBanibusQuestRepeatText:
+	text "Your BANIBUS"
+	line "research helped"
+	cont "me a lot. Thanks!"
+	done
+
+Route29YoungsterQuestDeclinedText:
+	text "Maybe another"
+	line "time, then."
+	done
+
+Route29YoungsterQuestBagFullText:
+	text "Your BAG is full."
+	line "Make some room"
+	cont "and talk to me."
 	done
 
 Route29YoungsterText:
