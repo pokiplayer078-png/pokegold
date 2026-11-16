@@ -60,6 +60,7 @@ BanibusOasis_MapEvents:
 	warp_event 23,  3, BANIBUS_MART, 2
 	warp_event 29,  3, BANIBUS_POKECENTER_1F, 1
 	warp_event 17,  7, BANIBUS_OASIS_GYM, 1
+	warp_event 25,  9, BANIBUS_RAMSES_HOUSE, 1
 	warp_event 31, 11, BANIBUS_DUNES, 1
 
 	def_coord_events
