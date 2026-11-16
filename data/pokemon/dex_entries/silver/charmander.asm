@@ -3,7 +3,7 @@
 
 	db   "It swims through"
 	next "sand like water"
-	next "Its hood warns foes"
+	next "Its hood warns all"
 
 	page "It senses steps"
 	next "from far below"
