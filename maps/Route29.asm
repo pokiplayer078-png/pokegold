@@ -226,7 +226,6 @@ Route29FisherScript:
 	writetext Route29FisherHatmeGiftPendingText
 	waitbutton
 	closetext
-	closetext
 	end
 
 Route29CooltrainerMScript:
