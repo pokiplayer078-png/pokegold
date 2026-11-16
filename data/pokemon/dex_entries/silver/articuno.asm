@@ -1,10 +1,10 @@
 	db "ROCK@" ; species name
 	dw 14, 280 ; height, weight
 
-	db   "It shapes the rocks"
+	db   "It shapes rocks"
 	next "around its burrow."
-	next "Its claws split stone."
+	next "Claws split rocks."
 
-	page "A single charge can"
-	next "start a small slide"
-	next "along a canyon wall.@"
+	page "One charge can"
+	next "start a rock slide"
+	next "along canyon walls.@"
