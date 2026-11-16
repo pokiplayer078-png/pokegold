@@ -699,3 +699,12 @@ ENDM
 	map_attributes BanibusPokecenter1F, BANIBUS_POKECENTER_1F, $00
 	map_attributes BanibusPyramid, BANIBUS_PYRAMID, $00
 	map_attributes BanibusDunes, BANIBUS_DUNES, $00
+	map_attributes BanibusOasisGym, BANIBUS_OASIS_GYM, $05
+	map_attributes BanibusSapphireCity, BANIBUS_SAPPHIRE_CITY, $35
+	map_attributes BanibusSapphireGym, BANIBUS_SAPPHIRE_GYM, $05
+	map_attributes BanibusCanyonCamp, BANIBUS_CANYON_CAMP, $05
+	map_attributes BanibusCanyonGym, BANIBUS_CANYON_GYM, $05
+	map_attributes BanibusZenithCity, BANIBUS_ZENITH_CITY, $35
+	map_attributes BanibusZenithGym, BANIBUS_ZENITH_GYM, $05
+	map_attributes BanibusCanyon, BANIBUS_CANYON, $05
+	map_attributes BanibusLeague, BANIBUS_LEAGUE, $05
