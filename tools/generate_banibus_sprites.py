@@ -41,6 +41,22 @@ def write_png(path, pixels, palette, size=56):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_bytes(data)
 
+def write_footprint_png(path, pixels):
+    # O GBC footprint pipeline uses a 1bpp DMG image; alpha is not supported.
+    w = h = 16
+    rows = bytearray()
+    for y in range(h):
+        rows.append(0)
+        for x in range(w):
+            rows.append(0 if pixels[y][x] else 255)
+    data = b"\\x89PNG\\r\\n\\x1a\\n"
+    data += png_chunk(b"IHDR", struct.pack(">IIBBBBB", w, h, 8, 0, 0, 0, 0))
+    data += png_chunk(b"IDAT", zlib.compress(bytes(rows), 9))
+    data += png_chunk(b"IEND", b"")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(data)
+
+
 class Canvas:
     def __init__(self, back=False):
         self.p = [[0 for _ in range(56)] for _ in range(56)]
@@ -226,7 +242,7 @@ def main():
         write_png(directory/"front_silver.png", front, palette)
         write_png(directory/"back.png", back, palette)
         (directory/"shiny.pal").write_text("\n\tRGB "+SHINY[folder][0]+"\n\tRGB "+SHINY[folder][1]+"\n\n")
-        write_png(Path("gfx/footprints")/(folder+".png"), footprint(kind), ("#FFFFFF", "#FFFFFF"), size=16)
+        write_footprint_png(Path("gfx/footprints")/(folder+".png"), footprint(kind))
         print(f"generated {label} -> {directory}")
 if __name__ == "__main__":
     main()
