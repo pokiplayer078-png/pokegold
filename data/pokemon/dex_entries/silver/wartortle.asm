@@ -7,4 +7,4 @@
 
 	page "to survive months"
 	next "without rain"
-	next "in the hottest dunes.@"
+	next "in summer heat.@"
