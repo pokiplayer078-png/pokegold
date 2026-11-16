@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
-	dw 204, 150 ; height, weight
+	db "SCARAB@" ; species name
+	dw 3, 12 ; height, weight
 
-	db   "The seed on its"
-	next "back is filled"
-	next "with nutrients."
+	db   "It rolls dry seeds"
+	next "across the dunes."
+	next "Its shell is warm."
 
-	page "The seed grows"
-	next "steadily larger as"
-	next "its body grows.@"
+	page "The shell stores"
+	next "the desert sun's"
+	next "heat for the night.@"
