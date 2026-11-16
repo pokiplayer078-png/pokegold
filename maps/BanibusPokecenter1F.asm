@@ -14,7 +14,7 @@ BanibusPokecenter1F_MapEvents:
 
 	def_warp_events
 	warp_event  3,  7, BANIBUS_OASIS, 2
-	warp_event  4,  7, BANIBUS_OASIS, 2
+	warp_event  4,  7, BANIBUS_SAPPHIRE_CITY, 3
 
 	def_coord_events
 
