@@ -3,7 +3,7 @@
 
 	db   "It digs tunnels"
 	next "under stony fields"
-	next "Its plates are hard"
+	next "Hard plates shield"
 
 	page "It curls up tight"
 	next "to roll through"
