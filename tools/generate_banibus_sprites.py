@@ -26,8 +26,8 @@ def png_chunk(kind, data):
     body = kind + data
     return struct.pack(">I", len(data)) + body + struct.pack(">I", binascii.crc32(body) & 0xffffffff)
 
-def write_png(path, pixels, palette):
-    w = h = 56
+def write_png(path, pixels, palette, size=56):
+    w = h = size
     rows = bytearray()
     rgba = [(0, 0, 0, 0), (38, 29, 37, 255), tuple(int(palette[0][i:i+2],16) for i in (1,3,5))+(255,), tuple(int(palette[1][i:i+2],16) for i in (1,3,5))+(255,)]
     for y in range(h):
@@ -182,6 +182,40 @@ def draw(kind, back=False):
     c.outline()
     return c.p
 
+def footprint(kind):
+    p=[[0 for _ in range(16)] for _ in range(16)]
+    # Three compact toes and one heel pad, with silhouette variations by family.
+    if kind in ("beetle","scarabrex","armadillo","rockbeast"):
+        pads=[(4,4,3,3),(8,3,3,3),(12,4,2,3),(8,10,4,4)]
+    elif kind in ("lizard","cobra","firelizard","firebeast"):
+        pads=[(3,4,3,3),(7,3,3,3),(11,4,3,3),(7,10,4,4)]
+    elif kind in ("sprout","sphinx","cactus","bigcactus"):
+        pads=[(4,3,3,3),(9,3,3,3),(6,9,5,4)]
+    else:
+        pads=[(3,4,3,3),(8,3,3,3),(12,4,2,3),(8,10,4,4)]
+    for cx,cy,rx,ry in pads:
+        for y in range(16):
+            for x in range(16):
+                if ((x-cx)/max(1,rx))**2+((y-cy)/max(1,ry))**2<=1: p[y][x]=1
+    return p
+
+SHINY = {
+    "bulbasaur": ("18, 28, 09", "31, 14, 05"),
+    "ivysaur": ("12, 25, 16", "30, 20, 08"),
+    "venusaur": ("25, 18, 08", "31, 28, 18"),
+    "charmander": ("18, 24, 31", "29, 19, 08"),
+    "charmeleon": ("20, 30, 18", "31, 24, 10"),
+    "charizard": ("10, 22, 24", "31, 30, 16"),
+    "squirtle": ("15, 27, 30", "31, 31, 12"),
+    "wartortle": ("08, 24, 15", "28, 31, 18"),
+    "blastoise": ("23, 22, 16", "31, 31, 28"),
+    "articuno": ("27, 20, 10", "31, 30, 18"),
+    "zapdos": ("13, 27, 18", "31, 25, 08"),
+    "moltres": ("25, 17, 31", "31, 28, 14"),
+    "mewtwo": ("31, 20, 08", "18, 10, 06"),
+    "mew": ("31, 26, 09", "17, 08, 12"),
+}
+
 def main():
     for folder, label, dark, light, kind in CREATURES:
         palette=(dark, light)
@@ -191,6 +225,8 @@ def main():
         write_png(directory/"front_gold.png", front, palette)
         write_png(directory/"front_silver.png", front, palette)
         write_png(directory/"back.png", back, palette)
+        (directory/"shiny.pal").write_text("\n\tRGB "+SHINY[folder][0]+"\n\tRGB "+SHINY[folder][1]+"\n\n")
+        write_png(Path("gfx/footprints")/(folder+".png"), footprint(kind), ("#FFFFFF", "#FFFFFF"), size=16)
         print(f"generated {label} -> {directory}")
 if __name__ == "__main__":
     main()
