@@ -14,15 +14,15 @@
 ; - Pokered_MonIndices (see data/pokemon/gen1_order.asm)
 ; - Footprints (see gfx/footprints.asm)
 	const_def 1
-	const BULBASAUR  ; 01
-	const IVYSAUR    ; 02
-	const VENUSAUR   ; 03
-	const CHARMANDER ; 04
-	const CHARMELEON ; 05
-	const CHARIZARD  ; 06
-	const SQUIRTLE   ; 07
-	const WARTORTLE  ; 08
-	const BLASTOISE  ; 09
+	const ESCARABEU  ; 01
+	const SCARABREX    ; 02
+	const DUNEKO   ; 03
+	const DUNEKOBRA ; 04
+	const OASLING ; 05
+	const OASISPHINX  ; 06
+	const CACTUSK   ; 07
+	const CACTITAN  ; 08
+	const ROCADILLO  ; 09
 	const CATERPIE   ; 0a
 	const METAPOD    ; 0b
 	const BUTTERFREE ; 0c
@@ -157,14 +157,14 @@
 	const KABUTOPS   ; 8d
 	const AERODACTYL ; 8e
 	const SNORLAX    ; 8f
-	const ARTICUNO   ; 90
-	const ZAPDOS     ; 91
-	const MOLTRES    ; 92
+	const ROCADUNE   ; 90
+	const MIRAGATO     ; 91
+	const MIRAJAGUAR    ; 92
 	const DRATINI    ; 93
 	const DRAGONAIR  ; 94
 	const DRAGONITE  ; 95
-	const MEWTWO     ; 96
-	const MEW        ; 97
+	const AKARIT     ; 96
+	const AKARUM        ; 97
 DEF JOHTO_POKEMON EQU const_value
 	const CHIKORITA  ; 98
 	const BAYLEEF    ; 99
@@ -270,6 +270,22 @@ DEF JOHTO_POKEMON EQU const_value
 	const HATMENUBIS ; fd
 DEF NUM_POKEMON EQU const_value - 1
 	const EGG        ; fe
+
+; Legacy symbol aliases keep older trainer/event scripts source-compatible.
+DEF BULBASAUR EQU ESCARABEU
+DEF IVYSAUR EQU SCARABREX
+DEF VENUSAUR EQU DUNEKO
+DEF CHARMANDER EQU DUNEKOBRA
+DEF CHARMELEON EQU OASLING
+DEF CHARIZARD EQU OASISPHINX
+DEF SQUIRTLE EQU CACTUSK
+DEF WARTORTLE EQU CACTITAN
+DEF BLASTOISE EQU ROCADILLO
+DEF ARTICUNO EQU ROCADUNE
+DEF ZAPDOS EQU MIRAGATO
+DEF MOLTRES EQU MIRAJAGUAR
+DEF MEWTWO EQU AKARIT
+DEF MEW EQU AKARUM
 
 ; Unown forms
 ; indexes for:
