@@ -67,7 +67,7 @@ BanibusDunes_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 8, 2, BANIBUS_OASIS, 4
+	warp_event 8, 2, BANIBUS_OASIS, 5
 	warp_event 8, 50, BANIBUS_PYRAMID, 1
 
 	def_coord_events
