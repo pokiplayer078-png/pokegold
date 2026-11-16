@@ -510,4 +510,6 @@ INCLUDE "maps/BanibusZenithCity.asm"
 INCLUDE "maps/BanibusZenithGym.asm"
 INCLUDE "maps/BanibusCanyon.asm"
 INCLUDE "maps/BanibusLeague.asm"
+INCLUDE "maps/BanibusRamsesHouse.asm"
+INCLUDE "maps/BanibusResidentHouse.asm"
 ENDSECTION
