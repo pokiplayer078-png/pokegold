@@ -1,10 +1,10 @@
-	db "GENETIC@" ; species name
-	dw 607, 2690 ; height, weight
+	db "LAVA LIZARD@" ; species name
+	dw 6, 32 ; height, weight
 
-	db   "Because its battle"
-	next "abilities were"
-	next "raised to the"
+	db   "It lives in warm"
+	next "pyramid chambers."
+	next "Its tail glows red."
 
-	page "ultimate level, it"
-	next "thinks only of de-"
-	next "feating its foes.@"
+	page "It gathers heat"
+	next "from deep stone"
+	next "before it battles.@"
