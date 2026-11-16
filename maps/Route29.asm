@@ -220,7 +220,7 @@ Route29FisherScript:
 	setevent EVENT_BANIBUS_HATME_RECEIVED
 .TravelToBanibus:
 	closetext
-	warp BANIBUS_OASIS, 25, 10
+	warp BANIBUS_OASIS, 29, 4
 
 .HatmeGiftPending:
 	writetext Route29FisherHatmeGiftPendingText
