@@ -5,27 +5,25 @@ AlphabeticalPokedexOrder:
 	db ABRA
 	db AERODACTYL
 	db AIPOM
+	db AKARIT
+	db AKARUM
 	db ALAKAZAM
 	db AMPHAROS
 	db ARBOK
 	db ARCANINE
 	db ARIADOS
-	db ARTICUNO
 	db AZUMARILL
 	db BAYLEEF
 	db BEEDRILL
 	db BELLOSSOM
 	db BELLSPROUT
-	db BLASTOISE
 	db BLISSEY
-	db BULBASAUR
 	db BUTTERFREE
+	db CACTITAN
+	db CACTUSK
 	db CATERPIE
 	db CELEBI
 	db CHANSEY
-	db CHARIZARD
-	db CHARMANDER
-	db CHARMELEON
 	db CHIKORITA
 	db CHINCHOU
 	db CLEFABLE
@@ -49,6 +47,8 @@ AlphabeticalPokedexOrder:
 	db DRATINI
 	db DROWZEE
 	db DUGTRIO
+	db DUNEKO
+	db DUNEKOBRA
 	db DUNSPARCE
 	db EEVEE
 	db EKANS
@@ -56,6 +56,7 @@ AlphabeticalPokedexOrder:
 	db ELECTRODE
 	db ELEKID
 	db ENTEI
+	db ESCARABEU
 	db ESPEON
 	db EXEGGCUTE
 	db EXEGGUTOR
@@ -96,7 +97,6 @@ AlphabeticalPokedexOrder:
 	db HOUNDOUR
 	db HYPNO
 	db IGGLYBUFF
-	db IVYSAUR
 	db JIGGLYPUFF
 	db JOLTEON
 	db JUMPLUFF
@@ -134,11 +134,10 @@ AlphabeticalPokedexOrder:
 	db MEGANIUM
 	db MEOWTH
 	db METAPOD
-	db MEW
-	db MEWTWO
 	db MILTANK
+	db MIRAGATO
+	db MIRAJAGUAR
 	db MISDREAVUS
-	db MOLTRES
 	db MR__MIME
 	db MUK
 	db MURKROW
@@ -151,6 +150,8 @@ AlphabeticalPokedexOrder:
 	db NIDORINO
 	db NINETALES
 	db NOCTOWL
+	db OASISPHINX
+	db OASLING
 	db OCTILLERY
 	db ODDISH
 	db OMANYTE
@@ -189,8 +190,11 @@ AlphabeticalPokedexOrder:
 	db REMORAID
 	db RHYDON
 	db RHYHORN
+	db ROCADILLO
+	db ROCADUNE
 	db SANDSHREW
 	db SANDSLASH
+	db SCARABREX
 	db SCIZOR
 	db SCYTHER
 	db SEADRA
@@ -212,7 +216,6 @@ AlphabeticalPokedexOrder:
 	db SNUBBULL
 	db SPEAROW
 	db SPINARAK
-	db SQUIRTLE
 	db STANTLER
 	db STARMIE
 	db STARYU
@@ -239,12 +242,10 @@ AlphabeticalPokedexOrder:
 	db VAPOREON
 	db VENOMOTH
 	db VENONAT
-	db VENUSAUR
 	db VICTREEBEL
 	db VILEPLUME
 	db VOLTORB
 	db VULPIX
-	db WARTORTLE
 	db WEEDLE
 	db WEEPINBELL
 	db WEEZING
@@ -253,6 +254,5 @@ AlphabeticalPokedexOrder:
 	db WOOPER
 	db XATU
 	db YANMA
-	db ZAPDOS
 	db ZUBAT
 	assert_table_length NUM_POKEMON
