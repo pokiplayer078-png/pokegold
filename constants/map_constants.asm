@@ -484,15 +484,15 @@ ENDM
 	map_const BANIBUS_POKECENTER_1F,                        5,  4 ; 14
 	map_const BANIBUS_PYRAMID,                             10, 14 ; 15
 	map_const BANIBUS_DUNES,                               10, 18 ; 16
-	map_const BANIBUS_OASIS_GYM                         5,  8 ; 17
-	map_const BANIBUS_SAPPHIRE_CITY                    20, 18 ; 18
-	map_const BANIBUS_SAPPHIRE_GYM                      5,  8 ; 19
-	map_const BANIBUS_CANYON_CAMP                      20, 18 ; 20
-	map_const BANIBUS_CANYON_GYM                        5,  8 ; 21
-	map_const BANIBUS_ZENITH_CITY                      20, 18 ; 22
-	map_const BANIBUS_ZENITH_GYM                        5,  8 ; 23
-	map_const BANIBUS_CANYON                           10, 18 ; 24
-	map_const BANIBUS_LEAGUE                            5,  8 ; 25
+	map_const BANIBUS_OASIS_GYM, 5,  8 ; 17
+	map_const BANIBUS_SAPPHIRE_CITY, 20, 18 ; 18
+	map_const BANIBUS_SAPPHIRE_GYM, 5,  8 ; 19
+	map_const BANIBUS_CANYON_CAMP, 20, 18 ; 20
+	map_const BANIBUS_CANYON_GYM, 5,  8 ; 21
+	map_const BANIBUS_ZENITH_CITY, 20, 18 ; 22
+	map_const BANIBUS_ZENITH_GYM, 5,  8 ; 23
+	map_const BANIBUS_CANYON, 10, 18 ; 24
+	map_const BANIBUS_LEAGUE, 5,  8 ; 25
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 26
