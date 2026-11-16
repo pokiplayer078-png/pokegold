@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
-	dw 507, 2000 ; height, weight
+	db "MIRAGE@" ; species name
+	dw 15, 320 ; height, weight
 
-	db   "Breathing intense,"
-	next "hot flames, it can"
-	next "melt almost any-"
+	db   "It protects desert"
+	next "springs with tricks."
+	next "Its eyes bend light."
 
-	page "thing. Its breath"
-	next "inflicts terrible"
-	next "pain on enemies.@"
+	page "Travelers follow"
+	next "false water trails"
+	next "when it feels sad.@"
