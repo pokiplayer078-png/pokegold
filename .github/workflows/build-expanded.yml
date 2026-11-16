@@ -10,6 +10,7 @@ on:
       - "data/trainers/parties.asm"
       - "**.inc"
       - "**.png"
+      - "tools/*.py"
       - "**.gbcpal"
       - "Makefile"
       - ".github/workflows/build-expanded.yml"
@@ -30,6 +31,9 @@ jobs:
           repository: gbdev/rgbds
           ref: v1.0.4
           path: rgbds
+
+      - name: Generate Banibus Pokémon sprites
+        run: python3 tools/generate_banibus_sprites.py
 
       - name: Install RGBDS dependencies
         run: |
