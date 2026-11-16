@@ -1,10 +1,10 @@
-	db "TURTLE@" ; species name
-	dw 303, 500 ; height, weight
+	db "CACTUS@" ; species name
+	dw 18, 190 ; height, weight
 
-	db   "It is recognized"
-	next "as a symbol of"
-	next "longevity. If its"
+	db   "It towers above"
+	next "the desert shrubs."
+	next "Its thick trunk"
 
-	page "shell has algae on"
-	next "it, that WARTORTLE"
-	next "is very old.@"
+	page "stores enough water"
+	next "to survive months"
+	next "without rainfall.@"
