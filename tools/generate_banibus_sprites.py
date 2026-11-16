@@ -27,19 +27,26 @@ def png_chunk(kind, data):
     return struct.pack(">I", len(data)) + body + struct.pack(">I", binascii.crc32(body) & 0xffffffff)
 
 def write_png(path, pixels, palette, size=56):
+    # Match the repository's indexed PNG format: palette index 0 is transparent.
     w = h = size
+    rgb = lambda value: tuple(int(value[i:i+2], 16) for i in (1, 3, 5))
+    plte = bytes((255, 255, 255) + (0, 0, 0) + rgb(palette[0]) + rgb(palette[1]))
+    trns = bytes((0, 255, 255, 255))
     rows = bytearray()
-    rgba = [(0, 0, 0, 0), (0, 0, 0, 255), tuple(int(palette[0][i:i+2],16) for i in (1,3,5))+(255,), tuple(int(palette[1][i:i+2],16) for i in (1,3,5))+(255,)]
     for y in range(h):
         rows.append(0)
-        for x in range(w):
-            rows.extend(rgba[pixels[y][x]])
-    data = b"\x89PNG\r\n\x1a\n"
-    data += png_chunk(b"IHDR", struct.pack(">IIBBBBB", w, h, 8, 6, 0, 0, 0))
+        for x in range(0, w, 4):
+            a, b, c, d = (pixels[y][x + k] for k in range(4))
+            rows.append((a << 6) | (b << 4) | (c << 2) | d)
+    data = bytes([137, 80, 78, 71, 13, 10, 26, 10])
+    data += png_chunk(b"IHDR", struct.pack(">IIBBBBB", w, h, 2, 3, 0, 0, 0))
+    data += png_chunk(b"PLTE", plte)
+    data += png_chunk(b"tRNS", trns)
     data += png_chunk(b"IDAT", zlib.compress(bytes(rows), 9))
     data += png_chunk(b"IEND", b"")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_bytes(data)
+
 
 def write_footprint_png(path, pixels):
     # O GBC footprint pipeline uses a 1bpp DMG image; alpha is not supported.
