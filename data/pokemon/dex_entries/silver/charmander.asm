@@ -1,10 +1,10 @@
-	db "LIZARD@" ; species name
-	dw 200, 190 ; height, weight
+	db "SNAKE@" ; species name
+	dw 12, 65 ; height, weight
 
-	db   "The flame on its"
-	next "tail indicates"
-	next "CHARMANDER's life"
+	db   "It swims through"
+	next "sand like water."
+	next "Its hood warns foes."
 
-	page "force. If it is"
-	next "healthy, the flame"
-	next "burns brightly.@"
+	page "It senses footsteps"
+	next "from far below the"
+	next "desert surface.@"
