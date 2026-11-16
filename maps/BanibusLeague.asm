@@ -394,7 +394,7 @@ BanibusLeagueChooseOctilleryText:
 BanibusLeagueChooseOmastarText:
 	text "Choose this prize?"
 	para "OMASTAR Lv.41"
-	line "and 25000 POKEDOLLARS."
+	line "and P25,000."
 	done
 BanibusLeagueChooseScizorText:
 	text "Choose this prize?"
