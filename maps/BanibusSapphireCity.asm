@@ -86,7 +86,10 @@ BanibusSapphireCity_MapEvents:
 	def_coord_events
 
 	def_bg_events
-	bg_event 30, 8, BGEVENT_READ, BanibusSapphireSign
+	bg_event 24, 20, BGEVENT_READ, BanibusSapphireSign
+	bg_event 15, 17, BGEVENT_READ, BanibusSapphireGymSign
+	bg_event 10, 17, BGEVENT_READ, BanibusSapphireMartSign
+	bg_event 32, 25, BGEVENT_READ, BanibusSapphirePokecenterSign
 
 	def_object_events
 	object_event 32, 6, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BanibusSapphireGuideScript, -1
