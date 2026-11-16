@@ -154,17 +154,88 @@ BanibusLeagueChampionScript:
 	writetext BanibusLeagueChampionAfterText
 	waitbutton
 .Rewards:
+	checkevent EVENT_BANIBUS_REWARD_CHOICE_KABUTOPS
+	iftrue .KabutopsReward
+	checkevent EVENT_BANIBUS_REWARD_CHOICE_OCTILLERY
+	iftrue .OctilleryReward
+	checkevent EVENT_BANIBUS_REWARD_CHOICE_OMASTAR
+	iftrue .OmastarReward
+	checkevent EVENT_BANIBUS_REWARD_CHOICE_SCIZOR
+	iftrue .ScizorReward
+	writetext BanibusLeagueChooseKabutopsText
+	yesorno
+	iftrue .ChooseKabutops
+	writetext BanibusLeagueChooseOctilleryText
+	yesorno
+	iftrue .ChooseOctillery
+	writetext BanibusLeagueChooseOmastarText
+	yesorno
+	iftrue .ChooseOmastar
+	writetext BanibusLeagueChooseScizorText
+	yesorno
+	iffalse .NoChoice
+.ChooseScizor:
+	setevent EVENT_BANIBUS_REWARD_CHOICE_SCIZOR
+	sjump .ScizorReward
+.ChooseOmastar:
+	setevent EVENT_BANIBUS_REWARD_CHOICE_OMASTAR
+	sjump .OmastarReward
+.ChooseOctillery:
+	setevent EVENT_BANIBUS_REWARD_CHOICE_OCTILLERY
+	sjump .OctilleryReward
+.ChooseKabutops:
+	setevent EVENT_BANIBUS_REWARD_CHOICE_KABUTOPS
+	sjump .KabutopsReward
+.KabutopsReward:
 	checkevent EVENT_BANIBUS_REWARD_KABUTOPS
-	iftrue .MasterBall
-	givepoke KABUTOPS, 35
+	iftrue .KabutopsBall
+	givepoke KABUTOPS, 42
 	iffalse .PartyFull
 	setevent EVENT_BANIBUS_REWARD_KABUTOPS
-.MasterBall:
+.KabutopsBall:
 	checkevent EVENT_BANIBUS_REWARD_MASTER_BALL
 	iftrue .AllDone
 	verbosegiveitem MASTER_BALL
 	iffalse .BagFull
 	setevent EVENT_BANIBUS_REWARD_MASTER_BALL
+	sjump .AllDone
+.OctilleryReward:
+	checkevent EVENT_BANIBUS_REWARD_OCTILLERY
+	iftrue .OctilleryBalls
+	givepoke OCTILLERY, 39
+	iffalse .PartyFull
+	setevent EVENT_BANIBUS_REWARD_OCTILLERY
+.OctilleryBalls:
+	checkevent EVENT_BANIBUS_REWARD_ULTRA_BALLS
+	iftrue .AllDone
+	verbosegiveitem ULTRA_BALL, 30
+	iffalse .BagFull
+	setevent EVENT_BANIBUS_REWARD_ULTRA_BALLS
+	sjump .AllDone
+.OmastarReward:
+	checkevent EVENT_BANIBUS_REWARD_OMASTAR
+	iftrue .OmastarMoney
+	givepoke OMASTAR, 41
+	iffalse .PartyFull
+	setevent EVENT_BANIBUS_REWARD_OMASTAR
+.OmastarMoney:
+	checkevent EVENT_BANIBUS_REWARD_MONEY
+	iftrue .AllDone
+	givemoney YOUR_MONEY, 25000
+	setevent EVENT_BANIBUS_REWARD_MONEY
+	sjump .AllDone
+.ScizorReward:
+	checkevent EVENT_BANIBUS_REWARD_SCIZOR
+	iftrue .ScizorMonolith
+	givepoke SCIZOR, 28
+	iffalse .PartyFull
+	setevent EVENT_BANIBUS_REWARD_SCIZOR
+.ScizorMonolith:
+	checkevent EVENT_BANIBUS_REWARD_MONOLITH
+	iftrue .AllDone
+	verbosegiveitem SMALL_MONOLITH
+	iffalse .BagFull
+	setevent EVENT_BANIBUS_REWARD_MONOLITH
 .AllDone:
 	writetext BanibusLeagueRewardCompleteText
 	waitbutton
@@ -177,6 +248,11 @@ BanibusLeagueChampionScript:
 	end
 .BagFull:
 	writetext BanibusLeagueBagFullText
+	waitbutton
+	closetext
+	end
+.NoChoice:
+	writetext BanibusLeagueNoRewardText
 	waitbutton
 	closetext
 	end
@@ -297,24 +373,49 @@ BanibusLeagueHallEmptyText:
 	line "is waiting for"
 	cont "its first champion."
 	done
+BanibusLeagueChooseKabutopsText:
+	text "Choose this prize?"
+	para "KABUTOPS Lv.42"
+	line "and MASTER BALL."
+	done
+BanibusLeagueChooseOctilleryText:
+	text "Choose this prize?"
+	para "OCTILLERY Lv.39"
+	line "and 30 ULTRA BALLS."
+	done
+BanibusLeagueChooseOmastarText:
+	text "Choose this prize?"
+	para "OMASTAR Lv.41"
+	line "and 25000 POKEDOLLARS."
+	done
+BanibusLeagueChooseScizorText:
+	text "Choose this prize?"
+	para "SCIZOR Lv.28"
+	line "and a SMALL MONOLITH."
+	done
 BanibusLeaguePartyFullText:
 	text "Your party is full."
-	para "Make room, then"
-	line "speak to KHALED"
-	cont "to receive the"
-	cont "KABUTOPS."
+	para "Make room and"
+	line "return to KHALED."
+	para "Your chosen prize"
+	line "is reserved."
 	done
 BanibusLeagueBagFullText:
-	text "Your bag is full."
-	para "Make room, then"
-	line "speak to KHALED"
-	cont "to receive the"
-	cont "MASTER BALL."
+	text "Your BAG is full."
+	para "Make room and"
+	line "return to KHALED."
+	para "Your chosen prize"
+	line "is reserved."
+	done
+BanibusLeagueNoRewardText:
+	text "Take your time."
+	para "Speak to KHALED"
+	line "when you have"
+	cont "chosen a prize."
 	done
 BanibusLeagueRewardCompleteText:
-	text "You received the"
-	line "KABUTOPS and the"
-	cont "MASTER BALL!"
+	text "Your chosen prize"
+	line "has been delivered!"
 	done
 
 BanibusLeague_MapEvents:
