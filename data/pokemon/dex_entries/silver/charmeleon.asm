@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
-	dw 307, 420 ; height, weight
+	db "SPROUT@" ; species name
+	dw 3, 9 ; height, weight
 
-	db   "It has a barbaric"
-	next "nature. In battle,"
-	next "it whips its"
+	db   "It stores water in"
+	next "a tiny blue bud."
+	next "It follows springs."
 
-	page "fiery tail around"
-	next "and slashes away"
-	next "with sharp claws.@"
+	page "The leaves on its"
+	next "head point toward"
+	next "hidden oases.@"
