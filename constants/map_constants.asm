@@ -487,7 +487,7 @@ ENDM
 	map_const BANIBUS_OASIS_GYM, 5,  8 ; 17
 	map_const BANIBUS_SAPPHIRE_CITY, 20, 18 ; 18
 	map_const BANIBUS_SAPPHIRE_GYM, 5,  8 ; 19
-	map_const BANIBUS_CANYON_CAMP, 20,  9 ; 20
+	map_const BANIBUS_CANYON_CAMP, 20, 18 ; 20
 	map_const BANIBUS_CANYON_GYM, 5,  8 ; 21
 	map_const BANIBUS_ZENITH_CITY, 20, 18 ; 22
 	map_const BANIBUS_ZENITH_GYM, 5,  8 ; 23
