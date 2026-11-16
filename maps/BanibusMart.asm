@@ -16,7 +16,7 @@ BanibusMart_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  2,  7, BANIBUS_OASIS, 1
+	warp_event  2,  7, BANIBUS_SAPPHIRE_CITY, 2
 	warp_event  3,  7, BANIBUS_OASIS, 1
 
 	def_coord_events
