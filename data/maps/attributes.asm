@@ -710,3 +710,5 @@ ENDM
 	map_attributes BanibusLeague, BANIBUS_LEAGUE, $05
 	map_attributes BanibusRamsesHouse, BANIBUS_RAMSES_HOUSE, $00
 	map_attributes BanibusResidentHouse, BANIBUS_RESIDENT_HOUSE, $00
+	map_attributes BanibusCampHouse, BANIBUS_CAMP_HOUSE, $00
+	map_attributes BanibusZenithHouse, BANIBUS_ZENITH_HOUSE, $00
