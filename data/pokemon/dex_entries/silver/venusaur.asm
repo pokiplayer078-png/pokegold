@@ -3,7 +3,7 @@
 
 	db   "It hides beneath"
 	next "the sand at dawn."
-	next "Only its eyes show."
+	next "Only its eyes show"
 
 	page "It can vanish"
 	next "under loose dunes"
