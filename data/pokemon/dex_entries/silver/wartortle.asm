@@ -3,8 +3,8 @@
 
 	db   "It towers above"
 	next "the desert shrubs."
-	next "Its thick trunk"
+	next "It stores water"
 
-	page "stores enough water"
-	next "to survive months"
-	next "without rainfall.@"
+	page "to survive months"
+	next "without rain"
+	next "in the hottest dunes.@"
