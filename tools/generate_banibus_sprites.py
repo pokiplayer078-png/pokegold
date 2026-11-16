@@ -29,7 +29,7 @@ def png_chunk(kind, data):
 def write_png(path, pixels, palette, size=56):
     w = h = size
     rows = bytearray()
-    rgba = [(0, 0, 0, 0), (38, 29, 37, 255), tuple(int(palette[0][i:i+2],16) for i in (1,3,5))+(255,), tuple(int(palette[1][i:i+2],16) for i in (1,3,5))+(255,)]
+    rgba = [(0, 0, 0, 0), (0, 0, 0, 255), tuple(int(palette[0][i:i+2],16) for i in (1,3,5))+(255,), tuple(int(palette[1][i:i+2],16) for i in (1,3,5))+(255,)]
     for y in range(h):
         rows.append(0)
         for x in range(w):
