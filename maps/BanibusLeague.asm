@@ -162,6 +162,11 @@ BanibusLeagueChampionScript:
 	iftrue .OmastarReward
 	checkevent EVENT_BANIBUS_REWARD_CHOICE_SCIZOR
 	iftrue .ScizorReward
+	; Carry forward the original Kabutops + Master Ball reward on old saves.
+	checkevent EVENT_BANIBUS_REWARD_KABUTOPS
+	iftrue .MigrateOldReward
+	checkevent EVENT_BANIBUS_REWARD_MASTER_BALL
+	iftrue .MigrateOldReward
 	writetext BanibusLeagueChooseKabutopsText
 	yesorno
 	iftrue .ChooseKabutops
